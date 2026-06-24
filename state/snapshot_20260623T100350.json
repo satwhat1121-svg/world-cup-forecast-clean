@@ -1,0 +1,2153 @@
+{
+  "generated_at": "2026-06-23T10:03:50.779562-04:00",
+  "simulation_count": 100000,
+  "notes": [
+    "Initial working public-data forecast built from FIFA public match feed and World Football Elo baseline.",
+    "Current title odds are first-pass independent calculations, not yet fully calibrated by backtest.",
+    "Round-of-32 third-place resolution is now driven by FIFA public placeholder patterns from the official feed, but full tournament title odds still need true simulation rather than heuristics."
+  ],
+  "ratings": [
+    {
+      "team": "Argentina",
+      "code": "AR",
+      "elo": 2144.0
+    },
+    {
+      "team": "Spain",
+      "code": "ES",
+      "elo": 2134.0
+    },
+    {
+      "team": "France",
+      "code": "FR",
+      "elo": 2090.0
+    },
+    {
+      "team": "England",
+      "code": "EN",
+      "elo": 2055.0
+    },
+    {
+      "team": "Colombia",
+      "code": "CO",
+      "elo": 1998.0
+    },
+    {
+      "team": "Brazil",
+      "code": "BR",
+      "elo": 1986.0
+    },
+    {
+      "team": "Netherlands",
+      "code": "NL",
+      "elo": 1972.0
+    },
+    {
+      "team": "Portugal",
+      "code": "PT",
+      "elo": 1967.0
+    },
+    {
+      "team": "Germany",
+      "code": "DE",
+      "elo": 1954.0
+    },
+    {
+      "team": "Norway",
+      "code": "NO",
+      "elo": 1951.0
+    },
+    {
+      "team": "Japan",
+      "code": "JP",
+      "elo": 1925.0
+    },
+    {
+      "team": "Mexico",
+      "code": "MX",
+      "elo": 1896.0
+    },
+    {
+      "team": "Switzerland",
+      "code": "CH",
+      "elo": 1885.0
+    },
+    {
+      "team": "Croatia",
+      "code": "HR",
+      "elo": 1881.0
+    },
+    {
+      "team": "Denmark",
+      "code": "DK",
+      "elo": 1869.0
+    },
+    {
+      "team": "Italy",
+      "code": "IT",
+      "elo": 1869.0
+    },
+    {
+      "team": "Belgium",
+      "code": "BE",
+      "elo": 1869.0
+    },
+    {
+      "team": "Morocco",
+      "code": "MA",
+      "elo": 1866.0
+    },
+    {
+      "team": "Ecuador",
+      "code": "EC",
+      "elo": 1864.0
+    },
+    {
+      "team": "Uruguay",
+      "code": "UY",
+      "elo": 1851.0
+    },
+    {
+      "team": "Austria",
+      "code": "AT",
+      "elo": 1841.0
+    },
+    {
+      "team": "United States",
+      "code": "US",
+      "elo": 1820.0
+    },
+    {
+      "team": "Senegal",
+      "code": "SN",
+      "elo": 1817.0
+    },
+    {
+      "team": "Paraguay",
+      "code": "PY",
+      "elo": 1816.0
+    },
+    {
+      "team": "Turkey",
+      "code": "TR",
+      "elo": 1813.0
+    },
+    {
+      "team": "Australia",
+      "code": "AU",
+      "elo": 1799.0
+    },
+    {
+      "team": "Algeria",
+      "code": "DZ",
+      "elo": 1780.0
+    },
+    {
+      "team": "Ukraine",
+      "code": "UA",
+      "elo": 1780.0
+    },
+    {
+      "team": "Canada",
+      "code": "CA",
+      "elo": 1777.0
+    },
+    {
+      "team": "Russia",
+      "code": "RU",
+      "elo": 1772.0
+    },
+    {
+      "team": "South Korea",
+      "code": "KR",
+      "elo": 1771.0
+    },
+    {
+      "team": "Scotland",
+      "code": "SQ",
+      "elo": 1768.0
+    },
+    {
+      "team": "Nigeria",
+      "code": "NG",
+      "elo": 1767.0
+    },
+    {
+      "team": "Iran",
+      "code": "IR",
+      "elo": 1766.0
+    },
+    {
+      "team": "Greece",
+      "code": "GR",
+      "elo": 1744.0
+    },
+    {
+      "team": "Egypt",
+      "code": "EG",
+      "elo": 1740.0
+    },
+    {
+      "team": "Serbia",
+      "code": "RS",
+      "elo": 1734.0
+    },
+    {
+      "team": "Venezuela",
+      "code": "VE",
+      "elo": 1733.0
+    },
+    {
+      "team": "Ivory Coast",
+      "code": "CI",
+      "elo": 1728.0
+    },
+    {
+      "team": "Sweden",
+      "code": "SE",
+      "elo": 1727.0
+    },
+    {
+      "team": "Chile",
+      "code": "CL",
+      "elo": 1717.0
+    },
+    {
+      "team": "Kosovo",
+      "code": "KO",
+      "elo": 1714.0
+    },
+    {
+      "team": "Hungary",
+      "code": "HU",
+      "elo": 1710.0
+    },
+    {
+      "team": "Poland",
+      "code": "PL",
+      "elo": 1710.0
+    },
+    {
+      "team": "Peru",
+      "code": "PE",
+      "elo": 1699.0
+    },
+    {
+      "team": "Ireland",
+      "code": "IE",
+      "elo": 1699.0
+    },
+    {
+      "team": "Uzbekistan",
+      "code": "UZ",
+      "elo": 1698.0
+    },
+    {
+      "team": "Czechia",
+      "code": "CZ",
+      "elo": 1696.0
+    },
+    {
+      "team": "Panama",
+      "code": "PA",
+      "elo": 1683.0
+    },
+    {
+      "team": "Wales",
+      "code": "WA",
+      "elo": 1682.0
+    },
+    {
+      "team": "Slovenia",
+      "code": "SI",
+      "elo": 1682.0
+    },
+    {
+      "team": "DR Congo",
+      "code": "CD",
+      "elo": 1674.0
+    },
+    {
+      "team": "Slovakia",
+      "code": "SK",
+      "elo": 1667.0
+    },
+    {
+      "team": "Georgia",
+      "code": "GE",
+      "elo": 1654.0
+    },
+    {
+      "team": "Israel",
+      "code": "IL",
+      "elo": 1647.0
+    },
+    {
+      "team": "Romania",
+      "code": "RO",
+      "elo": 1639.0
+    },
+    {
+      "team": "Jordan",
+      "code": "JO",
+      "elo": 1632.0
+    },
+    {
+      "team": "Cape Verde",
+      "code": "CV",
+      "elo": 1625.0
+    },
+    {
+      "team": "Bolivia",
+      "code": "BO",
+      "elo": 1621.0
+    },
+    {
+      "team": "Albania",
+      "code": "AL",
+      "elo": 1616.0
+    },
+    {
+      "team": "Cameroon",
+      "code": "CM",
+      "elo": 1614.0
+    },
+    {
+      "team": "Costa Rica",
+      "code": "CR",
+      "elo": 1608.0
+    },
+    {
+      "team": "Northern Ireland",
+      "code": "EI",
+      "elo": 1605.0
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "code": "BA",
+      "elo": 1596.0
+    },
+    {
+      "team": "Saudi Arabia",
+      "code": "SA",
+      "elo": 1593.0
+    },
+    {
+      "team": "North Macedonia",
+      "code": "NM",
+      "elo": 1589.0
+    },
+    {
+      "team": "Mali",
+      "code": "ML",
+      "elo": 1588.0
+    },
+    {
+      "team": "Iraq",
+      "code": "IQ",
+      "elo": 1586.0
+    },
+    {
+      "team": "Tunisia",
+      "code": "TN",
+      "elo": 1570.0
+    },
+    {
+      "team": "Honduras",
+      "code": "HN",
+      "elo": 1570.0
+    },
+    {
+      "team": "Iceland",
+      "code": "IS",
+      "elo": 1568.0
+    },
+    {
+      "team": "Ghana",
+      "code": "GH",
+      "elo": 1557.0
+    },
+    {
+      "team": "New Zealand",
+      "code": "NZ",
+      "elo": 1549.0
+    },
+    {
+      "team": "Angola",
+      "code": "AO",
+      "elo": 1542.0
+    },
+    {
+      "team": "United Arab Emirates",
+      "code": "AE",
+      "elo": 1540.0
+    },
+    {
+      "team": "Finland",
+      "code": "FI",
+      "elo": 1536.0
+    },
+    {
+      "team": "Burkina Faso",
+      "code": "BF",
+      "elo": 1529.0
+    },
+    {
+      "team": "Haiti",
+      "code": "HT",
+      "elo": 1528.0
+    },
+    {
+      "team": "South Africa",
+      "code": "ZA",
+      "elo": 1527.0
+    },
+    {
+      "team": "Jamaica",
+      "code": "JM",
+      "elo": 1527.0
+    },
+    {
+      "team": "Belarus",
+      "code": "BY",
+      "elo": 1522.0
+    },
+    {
+      "team": "Guatemala",
+      "code": "GT",
+      "elo": 1505.0
+    },
+    {
+      "team": "Oman",
+      "code": "OM",
+      "elo": 1480.0
+    },
+    {
+      "team": "Syria",
+      "code": "SY",
+      "elo": 1479.0
+    },
+    {
+      "team": "Palestine",
+      "code": "PS",
+      "elo": 1465.0
+    },
+    {
+      "team": "Guinea",
+      "code": "GN",
+      "elo": 1463.0
+    },
+    {
+      "team": "Montenegro",
+      "code": "ME",
+      "elo": 1461.0
+    },
+    {
+      "team": "Bulgaria",
+      "code": "BG",
+      "elo": 1458.0
+    },
+    {
+      "team": "Cura\u00e7ao",
+      "code": "CW",
+      "elo": 1453.0
+    },
+    {
+      "team": "Luxembourg",
+      "code": "LU",
+      "elo": 1450.0
+    },
+    {
+      "team": "Northern Cyprus",
+      "code": "NS",
+      "elo": 1442.0
+    },
+    {
+      "team": "Qatar",
+      "code": "QA",
+      "elo": 1437.0
+    },
+    {
+      "team": "Suriname",
+      "code": "SR",
+      "elo": 1431.0
+    },
+    {
+      "team": "Kazakhstan",
+      "code": "KZ",
+      "elo": 1428.0
+    },
+    {
+      "team": "China",
+      "code": "CN",
+      "elo": 1424.0
+    },
+    {
+      "team": "Kurdistan",
+      "code": "KD",
+      "elo": 1424.0
+    },
+    {
+      "team": "Libya",
+      "code": "LY",
+      "elo": 1420.0
+    },
+    {
+      "team": "Gambia",
+      "code": "GM",
+      "elo": 1419.0
+    },
+    {
+      "team": "Bahrain",
+      "code": "BH",
+      "elo": 1414.0
+    },
+    {
+      "team": "Benin",
+      "code": "BJ",
+      "elo": 1405.0
+    },
+    {
+      "team": "Gabon",
+      "code": "GA",
+      "elo": 1401.0
+    },
+    {
+      "team": "Uganda",
+      "code": "UG",
+      "elo": 1394.0
+    },
+    {
+      "team": "Trinidad and Tobago",
+      "code": "TT",
+      "elo": 1386.0
+    },
+    {
+      "team": "Faroe Islands",
+      "code": "FO",
+      "elo": 1386.0
+    },
+    {
+      "team": "Niger",
+      "code": "NE",
+      "elo": 1382.0
+    },
+    {
+      "team": "Madagascar",
+      "code": "MG",
+      "elo": 1380.0
+    },
+    {
+      "team": "Equatorial Guinea",
+      "code": "GQ",
+      "elo": 1380.0
+    },
+    {
+      "team": "Togo",
+      "code": "TG",
+      "elo": 1379.0
+    },
+    {
+      "team": "Thailand",
+      "code": "TH",
+      "elo": 1376.0
+    },
+    {
+      "team": "North Korea",
+      "code": "KP",
+      "elo": 1375.0
+    },
+    {
+      "team": "Comoros",
+      "code": "KM",
+      "elo": 1374.0
+    },
+    {
+      "team": "Armenia",
+      "code": "AM",
+      "elo": 1373.0
+    },
+    {
+      "team": "Zimbabwe",
+      "code": "ZW",
+      "elo": 1372.0
+    },
+    {
+      "team": "Indonesia",
+      "code": "ID",
+      "elo": 1372.0
+    },
+    {
+      "team": "Zambia",
+      "code": "ZM",
+      "elo": 1371.0
+    },
+    {
+      "team": "Kenya",
+      "code": "KE",
+      "elo": 1363.0
+    },
+    {
+      "team": "Estonia",
+      "code": "EE",
+      "elo": 1360.0
+    },
+    {
+      "team": "Vietnam",
+      "code": "VN",
+      "elo": 1351.0
+    },
+    {
+      "team": "Sudan",
+      "code": "SD",
+      "elo": 1350.0
+    },
+    {
+      "team": "Reunion",
+      "code": "RE",
+      "elo": 1345.0
+    },
+    {
+      "team": "El Salvador",
+      "code": "SV",
+      "elo": 1342.0
+    },
+    {
+      "team": "Mozambique",
+      "code": "MZ",
+      "elo": 1342.0
+    },
+    {
+      "team": "Sierra Leone",
+      "code": "SL",
+      "elo": 1341.0
+    },
+    {
+      "team": "Guadeloupe",
+      "code": "GP",
+      "elo": 1338.0
+    },
+    {
+      "team": "Rwanda",
+      "code": "RW",
+      "elo": 1336.0
+    },
+    {
+      "team": "Nicaragua",
+      "code": "NI",
+      "elo": 1333.0
+    },
+    {
+      "team": "Kuwait",
+      "code": "KW",
+      "elo": 1332.0
+    },
+    {
+      "team": "Mauritania",
+      "code": "MR",
+      "elo": 1329.0
+    },
+    {
+      "team": "Azerbaijan",
+      "code": "AZ",
+      "elo": 1322.0
+    },
+    {
+      "team": "Zanzibar",
+      "code": "ZN",
+      "elo": 1320.0
+    },
+    {
+      "team": "Cyprus",
+      "code": "CY",
+      "elo": 1314.0
+    },
+    {
+      "team": "Tanzania",
+      "code": "TZ",
+      "elo": 1313.0
+    },
+    {
+      "team": "Martinique",
+      "code": "MQ",
+      "elo": 1312.0
+    },
+    {
+      "team": "Liberia",
+      "code": "LR",
+      "elo": 1304.0
+    },
+    {
+      "team": "Namibia",
+      "code": "NA",
+      "elo": 1303.0
+    },
+    {
+      "team": "Kyrgyzstan",
+      "code": "KG",
+      "elo": 1295.0
+    },
+    {
+      "team": "Malaysia",
+      "code": "MY",
+      "elo": 1293.0
+    },
+    {
+      "team": "Guyana",
+      "code": "GY",
+      "elo": 1292.0
+    },
+    {
+      "team": "Lebanon",
+      "code": "LB",
+      "elo": 1288.0
+    },
+    {
+      "team": "Latvia",
+      "code": "LV",
+      "elo": 1288.0
+    },
+    {
+      "team": "Ethiopia",
+      "code": "ET",
+      "elo": 1287.0
+    },
+    {
+      "team": "New Caledonia",
+      "code": "NC",
+      "elo": 1286.0
+    },
+    {
+      "team": "Tajikistan",
+      "code": "TJ",
+      "elo": 1285.0
+    },
+    {
+      "team": "Burundi",
+      "code": "BI",
+      "elo": 1285.0
+    },
+    {
+      "team": "Dominican Republic",
+      "code": "DO",
+      "elo": 1283.0
+    },
+    {
+      "team": "Lithuania",
+      "code": "LT",
+      "elo": 1279.0
+    },
+    {
+      "team": "Moldova",
+      "code": "MD",
+      "elo": 1270.0
+    },
+    {
+      "team": "Botswana",
+      "code": "BW",
+      "elo": 1267.0
+    },
+    {
+      "team": "Malta",
+      "code": "MT",
+      "elo": 1255.0
+    },
+    {
+      "team": "Guinea-Bissau",
+      "code": "GW",
+      "elo": 1248.0
+    },
+    {
+      "team": "Cuba",
+      "code": "CU",
+      "elo": 1239.0
+    },
+    {
+      "team": "Malawi",
+      "code": "MW",
+      "elo": 1239.0
+    },
+    {
+      "team": "Central African Republic",
+      "code": "CF",
+      "elo": 1236.0
+    },
+    {
+      "team": "French Guiana",
+      "code": "GF",
+      "elo": 1223.0
+    },
+    {
+      "team": "Mayotte",
+      "code": "YT",
+      "elo": 1216.0
+    },
+    {
+      "team": "Turkmenistan",
+      "code": "TM",
+      "elo": 1209.0
+    },
+    {
+      "team": "Congo",
+      "code": "CG",
+      "elo": 1207.0
+    },
+    {
+      "team": "Eritrea",
+      "code": "ER",
+      "elo": 1201.0
+    },
+    {
+      "team": "Lesotho",
+      "code": "LS",
+      "elo": 1198.0
+    },
+    {
+      "team": "Yemen",
+      "code": "YE",
+      "elo": 1195.0
+    },
+    {
+      "team": "Philippines",
+      "code": "PH",
+      "elo": 1179.0
+    },
+    {
+      "team": "Tahiti",
+      "code": "TI",
+      "elo": 1177.0
+    },
+    {
+      "team": "Eswatini",
+      "code": "SW",
+      "elo": 1148.0
+    },
+    {
+      "team": "Saint Vincent and the Grenadines",
+      "code": "VC",
+      "elo": 1141.0
+    },
+    {
+      "team": "Papua New Guinea",
+      "code": "PG",
+      "elo": 1135.0
+    },
+    {
+      "team": "Puerto Rico",
+      "code": "PR",
+      "elo": 1135.0
+    },
+    {
+      "team": "Singapore",
+      "code": "SG",
+      "elo": 1134.0
+    },
+    {
+      "team": "India",
+      "code": "IN",
+      "elo": 1128.0
+    },
+    {
+      "team": "Bermuda",
+      "code": "BM",
+      "elo": 1117.0
+    },
+    {
+      "team": "Vanuatu",
+      "code": "VU",
+      "elo": 1117.0
+    },
+    {
+      "team": "South Sudan",
+      "code": "SS",
+      "elo": 1109.0
+    },
+    {
+      "team": "Fiji",
+      "code": "FJ",
+      "elo": 1104.0
+    },
+    {
+      "team": "Hong Kong",
+      "code": "HK",
+      "elo": 1101.0
+    },
+    {
+      "team": "Grenada",
+      "code": "GD",
+      "elo": 1098.0
+    },
+    {
+      "team": "Andorra",
+      "code": "AD",
+      "elo": 1080.0
+    },
+    {
+      "team": "Mauritius",
+      "code": "MU",
+      "elo": 1073.0
+    },
+    {
+      "team": "Chad",
+      "code": "TD",
+      "elo": 1073.0
+    },
+    {
+      "team": "Belize",
+      "code": "BZ",
+      "elo": 1073.0
+    },
+    {
+      "team": "Solomon Islands",
+      "code": "SB",
+      "elo": 1054.0
+    },
+    {
+      "team": "Saint Martin",
+      "code": "MF",
+      "elo": 1042.0
+    },
+    {
+      "team": "Sao Tome and Principe",
+      "code": "ST",
+      "elo": 1035.0
+    },
+    {
+      "team": "Saint Kitts and Nevis",
+      "code": "KN",
+      "elo": 1030.0
+    },
+    {
+      "team": "Gibraltar",
+      "code": "GI",
+      "elo": 1011.0
+    },
+    {
+      "team": "Somaliland",
+      "code": "JS",
+      "elo": 1005.0
+    },
+    {
+      "team": "Saint Lucia",
+      "code": "LC",
+      "elo": 1003.0
+    },
+    {
+      "team": "Western Sahara",
+      "code": "EH",
+      "elo": 996.0
+    },
+    {
+      "team": "Myanmar",
+      "code": "MM",
+      "elo": 984.0
+    },
+    {
+      "team": "Somalia",
+      "code": "SO",
+      "elo": 979.0
+    },
+    {
+      "team": "Aruba",
+      "code": "AW",
+      "elo": 978.0
+    },
+    {
+      "team": "Sint Maarten",
+      "code": "SX",
+      "elo": 975.0
+    },
+    {
+      "team": "Montserrat",
+      "code": "MS",
+      "elo": 972.0
+    },
+    {
+      "team": "Afghanistan",
+      "code": "AF",
+      "elo": 961.0
+    },
+    {
+      "team": "Greenland",
+      "code": "GL",
+      "elo": 945.0
+    },
+    {
+      "team": "Bangladesh",
+      "code": "BD",
+      "elo": 942.0
+    },
+    {
+      "team": "Djibouti",
+      "code": "DJ",
+      "elo": 940.0
+    },
+    {
+      "team": "Dominica",
+      "code": "DM",
+      "elo": 934.0
+    },
+    {
+      "team": "Pakistan",
+      "code": "PK",
+      "elo": 909.0
+    },
+    {
+      "team": "Monaco",
+      "code": "MC",
+      "elo": 903.0
+    },
+    {
+      "team": "Barbados",
+      "code": "BB",
+      "elo": 898.0
+    },
+    {
+      "team": "Antigua and Barbuda",
+      "code": "AG",
+      "elo": 895.0
+    },
+    {
+      "team": "Liechtenstein",
+      "code": "LI",
+      "elo": 895.0
+    },
+    {
+      "team": "Nepal",
+      "code": "NP",
+      "elo": 893.0
+    },
+    {
+      "team": "Cambodia",
+      "code": "KH",
+      "elo": 871.0
+    },
+    {
+      "team": "Seychelles",
+      "code": "SC",
+      "elo": 853.0
+    },
+    {
+      "team": "Sri Lanka",
+      "code": "LK",
+      "elo": 836.0
+    },
+    {
+      "team": "San Marino",
+      "code": "SM",
+      "elo": 825.0
+    },
+    {
+      "team": "Taiwan",
+      "code": "TW",
+      "elo": 822.0
+    },
+    {
+      "team": "Bonaire",
+      "code": "BQ",
+      "elo": 817.0
+    },
+    {
+      "team": "Maldives",
+      "code": "MV",
+      "elo": 801.0
+    },
+    {
+      "team": "Cayman Islands",
+      "code": "KY",
+      "elo": 800.0
+    },
+    {
+      "team": "Chagos Islands",
+      "code": "HG",
+      "elo": 782.0
+    },
+    {
+      "team": "Tuvalu",
+      "code": "TV",
+      "elo": 756.0
+    },
+    {
+      "team": "British Virgin Islands",
+      "code": "VG",
+      "elo": 743.0
+    },
+    {
+      "team": "Sint Eustatius",
+      "code": "EU",
+      "elo": 737.0
+    },
+    {
+      "team": "Laos",
+      "code": "LA",
+      "elo": 734.0
+    },
+    {
+      "team": "East Timor",
+      "code": "TL",
+      "elo": 734.0
+    },
+    {
+      "team": "Samoa",
+      "code": "WS",
+      "elo": 728.0
+    },
+    {
+      "team": "Mongolia",
+      "code": "MN",
+      "elo": 726.0
+    },
+    {
+      "team": "Saint Barthelemy",
+      "code": "BL",
+      "elo": 725.0
+    },
+    {
+      "team": "Guam",
+      "code": "GU",
+      "elo": 706.0
+    },
+    {
+      "team": "Wallis and Futuna",
+      "code": "WF",
+      "elo": 699.0
+    },
+    {
+      "team": "Vatican",
+      "code": "VA",
+      "elo": 692.0
+    },
+    {
+      "team": "Saba",
+      "code": "AB",
+      "elo": 691.0
+    },
+    {
+      "team": "Bahamas",
+      "code": "BS",
+      "elo": 685.0
+    },
+    {
+      "team": "Saint Pierre and Miquelon",
+      "code": "PM",
+      "elo": 677.0
+    },
+    {
+      "team": "Turks and Caicos Islands",
+      "code": "TC",
+      "elo": 657.0
+    },
+    {
+      "team": "Anguilla",
+      "code": "AI",
+      "elo": 646.0
+    },
+    {
+      "team": "Tibet",
+      "code": "TE",
+      "elo": 629.0
+    },
+    {
+      "team": "US Virgin Islands",
+      "code": "VI",
+      "elo": 628.0
+    },
+    {
+      "team": "Bhutan",
+      "code": "BT",
+      "elo": 623.0
+    },
+    {
+      "team": "Cook Islands",
+      "code": "CK",
+      "elo": 622.0
+    },
+    {
+      "team": "Macao",
+      "code": "MO",
+      "elo": 589.0
+    },
+    {
+      "team": "Christmas Island",
+      "code": "CX",
+      "elo": 578.0
+    },
+    {
+      "team": "Brunei",
+      "code": "BN",
+      "elo": 572.0
+    },
+    {
+      "team": "Falkland Islands",
+      "code": "FK",
+      "elo": 571.0
+    },
+    {
+      "team": "FS Micronesia",
+      "code": "FM",
+      "elo": 564.0
+    },
+    {
+      "team": "Marshall Islands",
+      "code": "MH",
+      "elo": 559.0
+    },
+    {
+      "team": "Kiribati",
+      "code": "KI",
+      "elo": 544.0
+    },
+    {
+      "team": "Tonga",
+      "code": "TO",
+      "elo": 520.0
+    },
+    {
+      "team": "Niue",
+      "code": "NU",
+      "elo": 496.0
+    },
+    {
+      "team": "Northern Mariana Islands",
+      "code": "MP",
+      "elo": 432.0
+    },
+    {
+      "team": "Cocos Islands",
+      "code": "CC",
+      "elo": 422.0
+    },
+    {
+      "team": "Palau",
+      "code": "PW",
+      "elo": 402.0
+    },
+    {
+      "team": "Eastern Samoa",
+      "code": "AS",
+      "elo": 369.0
+    }
+  ],
+  "title_odds": [
+    {
+      "team": "Argentina",
+      "code": "AR",
+      "win_world_cup": 21.0,
+      "reach_final": 42.8,
+      "reach_semifinal": 68.8,
+      "reach_quarterfinal": 95.6,
+      "advance_from_group_or_r32": 98.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Spain",
+      "code": "ES",
+      "win_world_cup": 19.3,
+      "reach_final": 39.8,
+      "reach_semifinal": 64.1,
+      "reach_quarterfinal": 89.6,
+      "advance_from_group_or_r32": 96.8,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "France",
+      "code": "FR",
+      "win_world_cup": 13.4,
+      "reach_final": 29.1,
+      "reach_semifinal": 47.5,
+      "reach_quarterfinal": 68.2,
+      "advance_from_group_or_r32": 90.5,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "England",
+      "code": "EN",
+      "win_world_cup": 10.0,
+      "reach_final": 23.0,
+      "reach_semifinal": 38.0,
+      "reach_quarterfinal": 56.0,
+      "advance_from_group_or_r32": 96.2,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Colombia",
+      "code": "CO",
+      "win_world_cup": 6.2,
+      "reach_final": 16.2,
+      "reach_semifinal": 27.4,
+      "reach_quarterfinal": 42.4,
+      "advance_from_group_or_r32": 92.1,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Brazil",
+      "code": "BR",
+      "win_world_cup": 5.6,
+      "reach_final": 15.1,
+      "reach_semifinal": 25.8,
+      "reach_quarterfinal": 40.3,
+      "advance_from_group_or_r32": 85.5,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Netherlands",
+      "code": "NL",
+      "win_world_cup": 5.0,
+      "reach_final": 14.0,
+      "reach_semifinal": 24.0,
+      "reach_quarterfinal": 38.0,
+      "advance_from_group_or_r32": 83.3,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Portugal",
+      "code": "PT",
+      "win_world_cup": 4.8,
+      "reach_final": 13.7,
+      "reach_semifinal": 23.5,
+      "reach_quarterfinal": 37.3,
+      "advance_from_group_or_r32": 64.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Germany",
+      "code": "DE",
+      "win_world_cup": 4.3,
+      "reach_final": 12.8,
+      "reach_semifinal": 22.1,
+      "reach_quarterfinal": 35.5,
+      "advance_from_group_or_r32": 97.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Norway",
+      "code": "NO",
+      "win_world_cup": 4.2,
+      "reach_final": 12.6,
+      "reach_semifinal": 21.8,
+      "reach_quarterfinal": 35.1,
+      "advance_from_group_or_r32": 73.5,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Japan",
+      "code": "JP",
+      "win_world_cup": 3.4,
+      "reach_final": 11.1,
+      "reach_semifinal": 19.5,
+      "reach_quarterfinal": 32.2,
+      "advance_from_group_or_r32": 78.6,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Mexico",
+      "code": "MX",
+      "win_world_cup": 2.7,
+      "reach_final": 9.8,
+      "reach_semifinal": 17.4,
+      "reach_quarterfinal": 29.6,
+      "advance_from_group_or_r32": 96.6,
+      "change_vs_yesterday": null
+    }
+  ],
+  "group_tables": {
+    "Group A": [
+      {
+        "team": "Mexico",
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "gf": 3,
+        "ga": 0,
+        "gd": 3,
+        "points": 6,
+        "sort_team": "MEX"
+      },
+      {
+        "team": "Korea Republic",
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 3,
+        "sort_team": "KOR"
+      },
+      {
+        "team": "Czech Republic",
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "gf": 2,
+        "ga": 3,
+        "gd": -1,
+        "points": 1,
+        "sort_team": "CZE"
+      },
+      {
+        "team": "South Africa",
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "points": 1,
+        "sort_team": "RSA"
+      }
+    ],
+    "Group B": [
+      {
+        "team": "Canada",
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
+        "points": 4,
+        "sort_team": "CAN"
+      },
+      {
+        "team": "Switzerland",
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "gf": 5,
+        "ga": 2,
+        "gd": 3,
+        "points": 4,
+        "sort_team": "SUI"
+      },
+      {
+        "team": "Bosnia and Herzegovina",
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "gf": 2,
+        "ga": 5,
+        "gd": -3,
+        "points": 1,
+        "sort_team": "BIH"
+      },
+      {
+        "team": "Qatar",
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "points": 1,
+        "sort_team": "QAT"
+      }
+    ],
+    "Group D": [
+      {
+        "team": "United States",
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "points": 6,
+        "sort_team": "USA"
+      },
+      {
+        "team": "Australia",
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 3,
+        "sort_team": "AUS"
+      },
+      {
+        "team": "Paraguay",
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
+        "points": 3,
+        "sort_team": "PAR"
+      },
+      {
+        "team": "Turkey",
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "gf": 0,
+        "ga": 3,
+        "gd": -3,
+        "points": 0,
+        "sort_team": "TUR"
+      }
+    ],
+    "Group C": [
+      {
+        "team": "Brazil",
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "points": 4,
+        "sort_team": "BRA"
+      },
+      {
+        "team": "Morocco",
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "gf": 2,
+        "ga": 1,
+        "gd": 1,
+        "points": 4,
+        "sort_team": "MAR"
+      },
+      {
+        "team": "Seychelles",
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 3,
+        "sort_team": "SCO"
+      },
+      {
+        "team": "HAI",
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "gf": 0,
+        "ga": 4,
+        "gd": -4,
+        "points": 0,
+        "sort_team": "HAI"
+      }
+    ],
+    "Group E": [
+      {
+        "team": "Germany",
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "gf": 9,
+        "ga": 2,
+        "gd": 7,
+        "points": 6,
+        "sort_team": "GER"
+      },
+      {
+        "team": "Ivory Coast",
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 3,
+        "sort_team": "CIV"
+      },
+      {
+        "team": "Ecuador",
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "gf": 0,
+        "ga": 1,
+        "gd": -1,
+        "points": 1,
+        "sort_team": "ECU"
+      },
+      {
+        "team": "CUW",
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "points": 1,
+        "sort_team": "CUW"
+      }
+    ],
+    "Group F": [
+      {
+        "team": "Netherlands",
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "points": 4,
+        "sort_team": "NED"
+      },
+      {
+        "team": "Japan",
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "gf": 6,
+        "ga": 2,
+        "gd": 4,
+        "points": 4,
+        "sort_team": "JPN"
+      },
+      {
+        "team": "Sweden",
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "gf": 6,
+        "ga": 6,
+        "gd": 0,
+        "points": 3,
+        "sort_team": "SWE"
+      },
+      {
+        "team": "Tunisia",
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "gf": 1,
+        "ga": 9,
+        "gd": -8,
+        "points": 0,
+        "sort_team": "TUN"
+      }
+    ],
+    "Group H": [
+      {
+        "team": "Spain",
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "gf": 4,
+        "ga": 0,
+        "gd": 4,
+        "points": 4,
+        "sort_team": "ESP"
+      },
+      {
+        "team": "Uruguay",
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "gf": 3,
+        "ga": 3,
+        "gd": 0,
+        "points": 2,
+        "sort_team": "URU"
+      },
+      {
+        "team": "CPV",
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 2,
+        "sort_team": "CPV"
+      },
+      {
+        "team": "Saudi Arabia",
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "gf": 1,
+        "ga": 5,
+        "gd": -4,
+        "points": 1,
+        "sort_team": "KSA"
+      }
+    ],
+    "Group G": [
+      {
+        "team": "Egypt",
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "points": 4,
+        "sort_team": "EGY"
+      },
+      {
+        "team": "Iran",
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 2,
+        "sort_team": "IRN"
+      },
+      {
+        "team": "Belgium",
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 2,
+        "sort_team": "BEL"
+      },
+      {
+        "team": "New Zealand",
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "gf": 3,
+        "ga": 5,
+        "gd": -2,
+        "points": 1,
+        "sort_team": "NZL"
+      }
+    ],
+    "Group I": [
+      {
+        "team": "France",
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "points": 6,
+        "sort_team": "FRA"
+      },
+      {
+        "team": "Norway",
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "points": 6,
+        "sort_team": "NOR"
+      },
+      {
+        "team": "Senegal",
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "gf": 3,
+        "ga": 6,
+        "gd": -3,
+        "points": 0,
+        "sort_team": "SEN"
+      },
+      {
+        "team": "Iraq",
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "points": 0,
+        "sort_team": "IRQ"
+      }
+    ],
+    "Group J": [
+      {
+        "team": "Argentina",
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "gf": 5,
+        "ga": 0,
+        "gd": 5,
+        "points": 6,
+        "sort_team": "ARG"
+      },
+      {
+        "team": "Austria",
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "gf": 3,
+        "ga": 3,
+        "gd": 0,
+        "points": 3,
+        "sort_team": "AUT"
+      },
+      {
+        "team": "Algeria",
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
+        "points": 3,
+        "sort_team": "ALG"
+      },
+      {
+        "team": "Jordan",
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "gf": 2,
+        "ga": 5,
+        "gd": -3,
+        "points": 0,
+        "sort_team": "JOR"
+      }
+    ],
+    "Group K": [
+      {
+        "team": "Colombia",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "points": 3,
+        "sort_team": "COL"
+      },
+      {
+        "team": "Portugal",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "sort_team": "POR"
+      },
+      {
+        "team": "DR Congo",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1,
+        "sort_team": "COD"
+      },
+      {
+        "team": "Uzbekistan",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "points": 0,
+        "sort_team": "UZB"
+      }
+    ],
+    "Group L": [
+      {
+        "team": "England",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "points": 3,
+        "sort_team": "ENG"
+      },
+      {
+        "team": "Ghana",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "gf": 1,
+        "ga": 0,
+        "gd": 1,
+        "points": 3,
+        "sort_team": "GHA"
+      },
+      {
+        "team": "Panama",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 0,
+        "ga": 1,
+        "gd": -1,
+        "points": 0,
+        "sort_team": "PAN"
+      },
+      {
+        "team": "Croatia",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
+        "points": 0,
+        "sort_team": "CRO"
+      }
+    ]
+  },
+  "upcoming_matches": [
+    {
+      "match": "Portugal vs Uzbekistan",
+      "home_win": 75.8,
+      "draw": 17.3,
+      "away_win": 6.9,
+      "most_likely_score": "2-0",
+      "why": "Driven by public Elo baseline, host effect where relevant, and Poisson scoreline model."
+    },
+    {
+      "match": "England vs Ghana",
+      "home_win": 75.8,
+      "draw": 17.3,
+      "away_win": 6.9,
+      "most_likely_score": "2-0",
+      "why": "Driven by public Elo baseline, host effect where relevant, and Poisson scoreline model."
+    },
+    {
+      "match": "Panama vs Croatia",
+      "home_win": 11.8,
+      "draw": 20.8,
+      "away_win": 67.5,
+      "most_likely_score": "0-1",
+      "why": "Driven by public Elo baseline, host effect where relevant, and Poisson scoreline model."
+    },
+    {
+      "match": "Colombia vs Congo DR",
+      "home_win": 75.8,
+      "draw": 17.3,
+      "away_win": 6.9,
+      "most_likely_score": "2-0",
+      "why": "Driven by public Elo baseline, host effect where relevant, and Poisson scoreline model."
+    },
+    {
+      "match": "Bosnia and Herzegovina vs Qatar",
+      "home_win": 61.5,
+      "draw": 22.8,
+      "away_win": 15.7,
+      "most_likely_score": "1-0",
+      "why": "Driven by public Elo baseline, host effect where relevant, and Poisson scoreline model."
+    },
+    {
+      "match": "Switzerland vs Canada",
+      "home_win": 53.5,
+      "draw": 24.8,
+      "away_win": 21.6,
+      "most_likely_score": "1-0",
+      "why": "Driven by public Elo baseline, host effect where relevant, and Poisson scoreline model."
+    },
+    {
+      "match": "Morocco vs Haiti",
+      "home_win": 62.6,
+      "draw": 22.4,
+      "away_win": 15.0,
+      "most_likely_score": "1-0",
+      "why": "Driven by public Elo baseline, host effect where relevant, and Poisson scoreline model."
+    },
+    {
+      "match": "Scotland vs Brazil",
+      "home_win": 6.9,
+      "draw": 17.3,
+      "away_win": 75.8,
+      "most_likely_score": "0-2",
+      "why": "Driven by public Elo baseline, host effect where relevant, and Poisson scoreline model."
+    }
+  ],
+  "round_of_32": [
+    {
+      "match_number": 73,
+      "home_slot": "2A",
+      "away_slot": "2B",
+      "home_team": "Korea Republic",
+      "away_team": "Switzerland"
+    },
+    {
+      "match_number": 74,
+      "home_slot": "1E",
+      "away_slot": "3ABCDF",
+      "home_team": "Germany",
+      "away_team": null
+    },
+    {
+      "match_number": 75,
+      "home_slot": "1F",
+      "away_slot": "2C",
+      "home_team": "Netherlands",
+      "away_team": "Morocco"
+    },
+    {
+      "match_number": 76,
+      "home_slot": "1C",
+      "away_slot": "2F",
+      "home_team": "Brazil",
+      "away_team": "Japan"
+    },
+    {
+      "match_number": 77,
+      "home_slot": "1I",
+      "away_slot": "3CDFGH",
+      "home_team": "France",
+      "away_team": null
+    },
+    {
+      "match_number": 78,
+      "home_slot": "2E",
+      "away_slot": "2I",
+      "home_team": "Ivory Coast",
+      "away_team": "Norway"
+    },
+    {
+      "match_number": 79,
+      "home_slot": "1A",
+      "away_slot": "3CEFHI",
+      "home_team": "Mexico",
+      "away_team": null
+    },
+    {
+      "match_number": 80,
+      "home_slot": "1L",
+      "away_slot": "3EHIJK",
+      "home_team": "England",
+      "away_team": null
+    },
+    {
+      "match_number": 81,
+      "home_slot": "1D",
+      "away_slot": "3BEFIJ",
+      "home_team": "United States",
+      "away_team": null
+    },
+    {
+      "match_number": 82,
+      "home_slot": "1G",
+      "away_slot": "3AEHIJ",
+      "home_team": "Egypt",
+      "away_team": null
+    },
+    {
+      "match_number": 83,
+      "home_slot": "2K",
+      "away_slot": "2L",
+      "home_team": "Portugal",
+      "away_team": "Ghana"
+    },
+    {
+      "match_number": 84,
+      "home_slot": "1H",
+      "away_slot": "2J",
+      "home_team": "Spain",
+      "away_team": "Austria"
+    },
+    {
+      "match_number": 85,
+      "home_slot": "1B",
+      "away_slot": "3EFGIJ",
+      "home_team": "Canada",
+      "away_team": null
+    },
+    {
+      "match_number": 86,
+      "home_slot": "1J",
+      "away_slot": "2H",
+      "home_team": "Argentina",
+      "away_team": "Uruguay"
+    },
+    {
+      "match_number": 87,
+      "home_slot": "1K",
+      "away_slot": "3DEIJL",
+      "home_team": "Colombia",
+      "away_team": null
+    },
+    {
+      "match_number": 88,
+      "home_slot": "2D",
+      "away_slot": "2G",
+      "home_team": "Australia",
+      "away_team": "Iran"
+    }
+  ],
+  "sources": [
+    {
+      "name": "FIFA public match feed",
+      "url": "https://api.fifa.com/api/v3/calendar/matches?count=500&idSeason=285023"
+    },
+    {
+      "name": "FIFA public tournament page API",
+      "url": "https://cxm-api.fifa.com/fifaplusweb/api/pages/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "name": "World Football Elo Ratings",
+      "url": "https://eloratings.net/"
+    },
+    {
+      "name": "FIFA 2026 regulations PDF",
+      "url": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf"
+    }
+  ]
+}

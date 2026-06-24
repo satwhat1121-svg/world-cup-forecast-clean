@@ -1,0 +1,19 @@
+{
+  "project": "world-cup-forecast",
+  "timezone": "America/New_York",
+  "simulation_count": 100000,
+  "rating_source": "World Football Elo Ratings",
+  "rating_source_url": "https://eloratings.net/",
+  "recent_form_cap_elo": 25,
+  "host_advantage_elo": 55,
+  "extra_time_goal_scale": 0.33,
+  "penalty_win_probability_default": 0.5,
+  "model_version": "0.1.0",
+  "calibration_status": "pre-backtest scaffold",
+  "notes": [
+    "Use public data only.",
+    "Do not reproduce proprietary model outputs.",
+    "At least 100000 simulations per daily run.",
+    "Exact 2026 third-place knockout mapping still to be encoded from FIFA regulations annex."
+  ]
+}

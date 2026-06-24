@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-06-23T09:46:03.735210-04:00",
+  "simulation_count": 100000,
+  "notes": [
+    "Initial scaffold snapshot only.",
+    "Public data ingestion and calibrated simulation not yet complete.",
+    "Do not treat placeholder probabilities as a real forecast."
+  ],
+  "ratings": [],
+  "title_odds": []
+}
