@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T09:09:59.136630-04:00",
+  "generated_at": "2026-06-28T09:00:15.730998-04:00",
   "simulation_count": 100000,
   "notes": [
     "Initial working public-data forecast built from FIFA public match feed and World Football Elo baseline.",
@@ -237,110 +237,110 @@
     {
       "team": "Argentina",
       "code": "AR",
-      "win_world_cup": 25.1,
-      "reach_final": 74.3,
-      "reach_semifinal": 57.9,
-      "reach_quarterfinal": 74.5,
+      "win_world_cup": 26.0,
+      "reach_final": 75.2,
+      "reach_semifinal": 58.1,
+      "reach_quarterfinal": 74.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Spain",
       "code": "ES",
-      "win_world_cup": 24.8,
-      "reach_final": 74.6,
-      "reach_semifinal": 61.7,
-      "reach_quarterfinal": 70.1,
+      "win_world_cup": 24.7,
+      "reach_final": 73.9,
+      "reach_semifinal": 60.0,
+      "reach_quarterfinal": 68.7,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "France",
       "code": "FR",
-      "win_world_cup": 22.4,
-      "reach_final": 82.4,
-      "reach_semifinal": 53.4,
-      "reach_quarterfinal": 74.2,
+      "win_world_cup": 21.0,
+      "reach_final": 78.1,
+      "reach_semifinal": 51.1,
+      "reach_quarterfinal": 72.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "England",
       "code": "EN",
-      "win_world_cup": 7.2,
-      "reach_final": 35.8,
-      "reach_semifinal": 27.8,
-      "reach_quarterfinal": 62.1,
+      "win_world_cup": 7.7,
+      "reach_final": 37.9,
+      "reach_semifinal": 29.2,
+      "reach_quarterfinal": 62.7,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Colombia",
       "code": "CO",
-      "win_world_cup": 5.3,
-      "reach_final": 23.5,
-      "reach_semifinal": 27.8,
-      "reach_quarterfinal": 73.6,
+      "win_world_cup": 5.1,
+      "reach_final": 22.1,
+      "reach_semifinal": 27.1,
+      "reach_quarterfinal": 74.3,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Brazil",
       "code": "BR",
-      "win_world_cup": 4.7,
-      "reach_final": 26.0,
-      "reach_semifinal": 30.3,
-      "reach_quarterfinal": 40.7,
+      "win_world_cup": 4.3,
+      "reach_final": 26.5,
+      "reach_semifinal": 30.0,
+      "reach_quarterfinal": 40.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Netherlands",
       "code": "NL",
-      "win_world_cup": 2.7,
-      "reach_final": 17.1,
-      "reach_semifinal": 23.4,
-      "reach_quarterfinal": 33.8,
+      "win_world_cup": 2.4,
+      "reach_final": 16.9,
+      "reach_semifinal": 22.6,
+      "reach_quarterfinal": 33.0,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Portugal",
       "code": "PT",
-      "win_world_cup": 2.0,
+      "win_world_cup": 2.2,
       "reach_final": 10.6,
-      "reach_semifinal": 14.7,
-      "reach_quarterfinal": 19.4,
+      "reach_semifinal": 14.9,
+      "reach_quarterfinal": 20.2,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Germany",
       "code": "DE",
-      "win_world_cup": 1.1,
-      "reach_final": 11.9,
-      "reach_semifinal": 22.9,
-      "reach_quarterfinal": 53.3,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "Norway",
-      "code": "NO",
-      "win_world_cup": 0.9,
-      "reach_final": 6.8,
-      "reach_semifinal": 7.6,
-      "reach_quarterfinal": 19.5,
+      "win_world_cup": 1.4,
+      "reach_final": 12.6,
+      "reach_semifinal": 22.4,
+      "reach_quarterfinal": 52.5,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Switzerland",
       "code": "CH",
-      "win_world_cup": 0.8,
-      "reach_final": 4.4,
-      "reach_semifinal": 7.5,
-      "reach_quarterfinal": 16.7,
+      "win_world_cup": 1.0,
+      "reach_final": 4.9,
+      "reach_semifinal": 8.0,
+      "reach_quarterfinal": 16.8,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Norway",
+      "code": "NO",
+      "win_world_cup": 0.7,
+      "reach_final": 6.9,
+      "reach_semifinal": 7.8,
+      "reach_quarterfinal": 20.3,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -348,29 +348,39 @@
       "team": "Mexico",
       "code": "MX",
       "win_world_cup": 0.6,
-      "reach_final": 5.8,
-      "reach_semifinal": 6.2,
-      "reach_quarterfinal": 22.3,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "Japan",
-      "code": "JP",
-      "win_world_cup": 0.5,
-      "reach_final": 4.6,
-      "reach_semifinal": 8.4,
-      "reach_quarterfinal": 14.4,
+      "reach_final": 6.1,
+      "reach_semifinal": 6.6,
+      "reach_quarterfinal": 21.7,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Belgium",
       "code": "BE",
+      "win_world_cup": 0.6,
+      "reach_final": 4.0,
+      "reach_semifinal": 8.3,
+      "reach_quarterfinal": 40.6,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Japan",
+      "code": "JP",
       "win_world_cup": 0.4,
-      "reach_final": 3.8,
-      "reach_semifinal": 7.5,
-      "reach_quarterfinal": 40.2,
+      "reach_final": 5.3,
+      "reach_semifinal": 8.8,
+      "reach_quarterfinal": 14.7,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Ecuador",
+      "code": "EC",
+      "win_world_cup": 0.4,
+      "reach_final": 2.9,
+      "reach_semifinal": 3.5,
+      "reach_quarterfinal": 13.4,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -378,19 +388,9 @@
       "team": "Croatia",
       "code": "HR",
       "win_world_cup": 0.3,
-      "reach_final": 2.3,
-      "reach_semifinal": 4.3,
-      "reach_quarterfinal": 7.0,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "Ecuador",
-      "code": "EC",
-      "win_world_cup": 0.3,
-      "reach_final": 3.0,
-      "reach_semifinal": 3.6,
-      "reach_quarterfinal": 13.3,
+      "reach_final": 2.0,
+      "reach_semifinal": 4.4,
+      "reach_quarterfinal": 7.2,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -398,29 +398,29 @@
       "team": "Morocco",
       "code": "MA",
       "win_world_cup": 0.3,
-      "reach_final": 2.4,
-      "reach_semifinal": 5.7,
-      "reach_quarterfinal": 11.1,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "Paraguay",
-      "code": "PY",
-      "win_world_cup": 0.2,
-      "reach_final": 2.3,
-      "reach_semifinal": 5.8,
-      "reach_quarterfinal": 21.5,
+      "reach_final": 3.1,
+      "reach_semifinal": 6.5,
+      "reach_quarterfinal": 11.6,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Senegal",
       "code": "SN",
-      "win_world_cup": 0.1,
+      "win_world_cup": 0.3,
+      "reach_final": 1.7,
+      "reach_semifinal": 4.9,
+      "reach_quarterfinal": 27.1,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "United States",
+      "code": "US",
+      "win_world_cup": 0.2,
       "reach_final": 1.9,
       "reach_semifinal": 5.2,
-      "reach_quarterfinal": 28.0,
+      "reach_quarterfinal": 29.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -428,9 +428,19 @@
       "team": "Austria",
       "code": "AT",
       "win_world_cup": 0.1,
-      "reach_final": 0.8,
+      "reach_final": 0.9,
       "reach_semifinal": 2.0,
-      "reach_quarterfinal": 3.6,
+      "reach_quarterfinal": 4.0,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Paraguay",
+      "code": "PY",
+      "win_world_cup": 0.1,
+      "reach_final": 2.0,
+      "reach_semifinal": 5.9,
+      "reach_quarterfinal": 22.9,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -438,9 +448,9 @@
       "team": "Australia",
       "code": "AU",
       "win_world_cup": 0.1,
-      "reach_final": 1.3,
-      "reach_semifinal": 3.2,
-      "reach_quarterfinal": 15.7,
+      "reach_final": 1.1,
+      "reach_semifinal": 2.9,
+      "reach_quarterfinal": 15.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -448,19 +458,9 @@
       "team": "Algeria",
       "code": "DZ",
       "win_world_cup": 0.1,
-      "reach_final": 0.5,
-      "reach_semifinal": 1.5,
+      "reach_final": 1.0,
+      "reach_semifinal": 1.7,
       "reach_quarterfinal": 5.8,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "United States",
-      "code": "US",
-      "win_world_cup": 0.1,
-      "reach_final": 1.5,
-      "reach_semifinal": 4.3,
-      "reach_quarterfinal": 29.5,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -468,19 +468,9 @@
       "team": "Canada",
       "code": "CA",
       "win_world_cup": 0.1,
-      "reach_final": 1.1,
-      "reach_semifinal": 3.2,
-      "reach_quarterfinal": 22.0,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "Egypt",
-      "code": "EG",
-      "win_world_cup": 0.1,
-      "reach_final": 0.4,
-      "reach_semifinal": 1.3,
-      "reach_quarterfinal": 8.4,
+      "reach_final": 0.9,
+      "reach_semifinal": 3.4,
+      "reach_quarterfinal": 21.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -518,9 +508,9 @@
       "team": "Ivory Coast",
       "code": "CI",
       "win_world_cup": 0.0,
-      "reach_final": 0.4,
+      "reach_final": 0.2,
       "reach_semifinal": 0.7,
-      "reach_quarterfinal": 3.4,
+      "reach_quarterfinal": 3.6,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -528,9 +518,19 @@
       "team": "Sweden",
       "code": "SE",
       "win_world_cup": 0.0,
-      "reach_final": 0.2,
-      "reach_semifinal": 0.5,
-      "reach_quarterfinal": 3.0,
+      "reach_final": 0.4,
+      "reach_semifinal": 0.7,
+      "reach_quarterfinal": 3.3,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Egypt",
+      "code": "EG",
+      "win_world_cup": 0.0,
+      "reach_final": 0.5,
+      "reach_semifinal": 1.4,
+      "reach_quarterfinal": 7.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -548,9 +548,9 @@
       "team": "DR Congo",
       "code": "CD",
       "win_world_cup": 0.0,
-      "reach_final": 0.1,
+      "reach_final": 0.2,
       "reach_semifinal": 0.3,
-      "reach_quarterfinal": 2.3,
+      "reach_quarterfinal": 2.2,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -600,7 +600,7 @@
       "win_world_cup": 0.0,
       "reach_final": 0.1,
       "reach_semifinal": 0.3,
-      "reach_quarterfinal": 2.4,
+      "reach_quarterfinal": 2.5,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -619,8 +619,8 @@
       "code": "GH",
       "win_world_cup": 0.0,
       "reach_final": 0.1,
-      "reach_semifinal": 0.3,
-      "reach_quarterfinal": 2.3,
+      "reach_semifinal": 0.4,
+      "reach_quarterfinal": 2.2,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -628,9 +628,9 @@
       "team": "South Africa",
       "code": "ZA",
       "win_world_cup": 0.0,
-      "reach_final": 0.0,
-      "reach_semifinal": 0.3,
-      "reach_quarterfinal": 3.1,
+      "reach_final": 0.1,
+      "reach_semifinal": 0.4,
+      "reach_quarterfinal": 2.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -712,7 +712,7 @@
         "sort_team": "RSA"
       },
       {
-        "team": "South Korea",
+        "team": "Korea Republic",
         "played": 3,
         "wins": 1,
         "draws": 0,
@@ -724,7 +724,7 @@
         "sort_team": "KOR"
       },
       {
-        "team": "Czechia",
+        "team": "Czech Republic",
         "played": 3,
         "wins": 0,
         "draws": 1,
@@ -874,7 +874,7 @@
         "sort_team": "SCO"
       },
       {
-        "team": "Haiti",
+        "team": "HAI",
         "played": 3,
         "wins": 0,
         "draws": 0,
@@ -900,7 +900,7 @@
         "sort_team": "GER"
       },
       {
-        "team": "C\u00f4te d'Ivoire",
+        "team": "Ivory Coast",
         "played": 3,
         "wins": 2,
         "draws": 0,
@@ -924,7 +924,7 @@
         "sort_team": "ECU"
       },
       {
-        "team": "Cura\u00e7ao",
+        "team": "CUW",
         "played": 3,
         "wins": 0,
         "draws": 1,
@@ -1000,7 +1000,7 @@
         "sort_team": "ESP"
       },
       {
-        "team": "Cape Verde",
+        "team": "CPV",
         "played": 3,
         "wins": 0,
         "draws": 3,
@@ -1345,7 +1345,7 @@
       "why": "Driven by public Elo baseline, host effect where relevant, and Poisson scoreline model."
     },
     {
-      "match": "England vs DR Congo",
+      "match": "England vs Congo DR",
       "home_win": 75.8,
       "draw": 17.3,
       "away_win": 6.9,
@@ -1395,7 +1395,7 @@
       "match_number": 78,
       "home_slot": "2E",
       "away_slot": "2I",
-      "home_team": "C\u00f4te d'Ivoire",
+      "home_team": "Ivory Coast",
       "away_team": "Norway"
     },
     {
@@ -1457,7 +1457,7 @@
       "home_slot": "1J",
       "away_slot": "2H",
       "home_team": "Argentina",
-      "away_team": "Cape Verde"
+      "away_team": "CPV"
     },
     {
       "match_number": 87,

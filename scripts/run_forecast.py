@@ -21,16 +21,22 @@ TZ = "America/New_York"
 
 TEAM_NAME_OVERRIDES = {
     "USA": "United States",
-    "KOR": "Korea Republic",
-    "CZE": "Czech Republic",
+    "KOR": "South Korea",
+    "CZE": "Czechia",
     "COD": "DR Congo",
     "ENG": "England",
     "IRN": "Iran",
     "CRC": "Costa Rica",
     "SUI": "Switzerland",
-    "CIV": "Ivory Coast",
+    "CIV": "Côte d'Ivoire",
     "UAE": "United Arab Emirates",
     "QAT": "Qatar",
+    "CPV": "Cape Verde",
+    "CUW": "Curaçao",
+    "HAI": "Haiti",
+    "RSA": "South Africa",
+    "KSA": "Saudi Arabia",
+    "NZL": "New Zealand",
 }
 
 FIFA_TO_ELO = {
@@ -141,14 +147,29 @@ def normalize_team_name(abbr: str, team_names: dict[str, str]) -> str:
     rec = team_names.get(fifa_to_elo_code(abbr)) or team_names.get(abbr)
     if rec:
         return rec
-    return abbr
+    return TEAM_NAME_OVERRIDES.get(abbr, abbr)
 
 
 def match_team_display(team_obj: dict, team_names: dict[str, str]) -> str:
+    abbr = team_obj.get('Abbreviation')
+    if abbr:
+        normalized = normalize_team_name(abbr, team_names)
+        if normalized != abbr:
+            return normalized
     names = team_obj.get('TeamName') or []
     if names and names[0].get('Description'):
-        return names[0]['Description']
-    abbr = team_obj.get('Abbreviation')
+        name = names[0]['Description']
+        if name == 'USA':
+            return 'United States'
+        if name == 'Korea Republic':
+            return 'South Korea'
+        if name == 'Czech Republic':
+            return 'Czechia'
+        if name == 'Ivory Coast':
+            return "Côte d'Ivoire"
+        if name == 'Congo DR':
+            return 'DR Congo'
+        return name
     if abbr:
         return normalize_team_name(abbr, team_names)
     return 'TBD'
