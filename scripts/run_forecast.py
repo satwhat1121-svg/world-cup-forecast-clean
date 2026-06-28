@@ -67,6 +67,7 @@ class ForecastSnapshot:
     upcoming_matches: list[dict]
     round_of_32: list[dict]
     round_of_32_matchup_probs: list[dict]
+    round_of_32_win_probs: dict
     knockout_path_probs: list[dict]
     bracket_slot_probs: dict
     sources: list[dict]
@@ -680,7 +681,8 @@ def compute_forecast() -> ForecastSnapshot:
         if m.get('MatchStatus') != 0:
             future.append(m)
     future.sort(key=lambda m: m.get('Date'))
-    for m in future[:8]:
+    round_of_32_win_probs = {}
+    for m in future:
         home_obj = (m.get('Home') or {})
         away_obj = (m.get('Away') or {})
         home_team_obj = (m.get('HomeTeam') or {})
@@ -692,14 +694,26 @@ def compute_forecast() -> ForecastSnapshot:
         host_boost = 55.0 if home in {'USA','MEX','CAN'} else 0.0
         hxg, axg = expected_goals(elo.get(fifa_to_elo_code(home), {'elo':1700})['elo'], elo.get(fifa_to_elo_code(away), {'elo':1700})['elo'], host_boost)
         hw, dr, aw, score = match_probs(hxg, axg)
-        upcoming.append({
+        match_row = {
             'match': f"{match_team_display(home_obj or home_team_obj, team_names)} vs {match_team_display(away_obj or away_team_obj, team_names)}",
             'home_win': round(hw * 100, 1),
             'draw': round(dr * 100, 1),
             'away_win': round(aw * 100, 1),
             'most_likely_score': score,
             'why': 'Driven by public Elo baseline, host effect where relevant, and Poisson scoreline model.'
-        })
+        }
+        if m.get('IdStage') == '289287':
+            home_advance = hw + 0.5 * dr
+            away_advance = aw + 0.5 * dr
+            round_of_32_win_probs[str(int(m['MatchNumber']))] = {
+                'home_team': match_team_display(home_obj or home_team_obj, team_names),
+                'away_team': match_team_display(away_obj or away_team_obj, team_names),
+                'home_advance': round(home_advance * 100, 1),
+                'away_advance': round(away_advance * 100, 1),
+                'most_likely_score': score,
+            }
+        upcoming.append(match_row)
+    upcoming = upcoming[:8]
 
     matchup_probs = []
     for team_code, opponents in matchup_counter.items():
@@ -787,6 +801,7 @@ def compute_forecast() -> ForecastSnapshot:
         upcoming_matches=upcoming,
         round_of_32=round_of_32,
         round_of_32_matchup_probs=matchup_probs,
+        round_of_32_win_probs=round_of_32_win_probs,
         knockout_path_probs=knockout_path_probs,
         bracket_slot_probs=bracket_slot_probs,
         sources=sources,

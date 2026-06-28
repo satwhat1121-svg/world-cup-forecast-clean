@@ -93,8 +93,13 @@ function championTop(){ return (data.bracket_slot_probs?.champion || []).slice(0
 function matchBox(title, lines){
   return `<div class="match-box"><div class="match-title">${title}</div>${lines.map(l=>`<div class="team-line"><strong>${l.team}</strong><span>${pct(l.probability)}</span></div>`).join('')}</div>`;
 }
-function connectorStack(count, side, offset){
-  return `<div class="connector-col ${offset||''}">${Array.from({length:count}).map(()=>`<div class="connector-box ${side}"></div>`).join('')}</div>`;
+function r32MatchBox(matchNo){
+  const p = data.round_of_32_win_probs?.[String(matchNo)];
+  if(!p) return matchBox(`Match ${matchNo}`, [{team:r32ByMatch[matchNo]?.home_team || 'TBD', probability:null},{team:r32ByMatch[matchNo]?.away_team || 'TBD', probability:null}]);
+  return matchBox(`Match ${matchNo}`, [
+    {team:p.home_team, probability:p.home_advance},
+    {team:p.away_team, probability:p.away_advance}
+  ]);
 }
 const r32ByMatch = Object.fromEntries((data.round_of_32 || []).map(m => [m.match_number, m]));
 const leftR32 = [74,77,73,75,83,84,81,82];
@@ -112,14 +117,14 @@ const bracketHtml = `
       <div>Round of 16 / 32</div>
     </div>
     <div class="bracket">
-      <div class="round-col">${leftR32.map(n => matchBox(`Match ${n}`, [{team:r32ByMatch[n]?.home_team || 'TBD', probability:100},{team:r32ByMatch[n]?.away_team || 'TBD', probability:100}])).join('')}</div>
+      <div class="round-col">${leftR32.map(n => r32MatchBox(n)).join('')}</div>
       <div class="round-col offset-1">${[89,90,93,94].map(n => matchBox(`Match ${n}`, topN(n,3))).join('')}</div>
       <div class="round-col offset-2">${[97,98].map(n => matchBox(`Match ${n}`, topN(n,3))).join('')}</div>
       <div class="round-col offset-3">${matchBox('Match 101', topN(101,3))}</div>
       <div class="champion-stack"><div class="final-label">Final winner</div>${matchBox('Champion', championTop())}</div>
       <div class="round-col offset-3">${matchBox('Match 102', topN(102,3))}</div>
       <div class="round-col offset-2">${[99,100].map(n => matchBox(`Match ${n}`, topN(n,3))).join('')}</div>
-      <div class="round-col offset-1">${[91,92,95,96].map(n => matchBox(`Match ${n}`, topN(n,3))).join('')}${rightR32.map(n => matchBox(`Match ${n}`, [{team:r32ByMatch[n]?.home_team || 'TBD', probability:100},{team:r32ByMatch[n]?.away_team || 'TBD', probability:100}])).join('')}</div>
+      <div class="round-col offset-1">${[91,92,95,96].map(n => matchBox(`Match ${n}`, topN(n,3))).join('')}${rightR32.map(n => r32MatchBox(n)).join('')}</div>
     </div>
   </div>`;
 let groupsHtml = '';
