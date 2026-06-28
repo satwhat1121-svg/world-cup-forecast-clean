@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T09:35:35.015053-04:00",
+  "generated_at": "2026-06-28T09:30:57.701327-04:00",
   "simulation_count": 100000,
   "notes": [
     "Initial working public-data forecast built from FIFA public match feed and World Football Elo baseline.",
@@ -237,142 +237,152 @@
   ],
   "title_odds": [
     {
-      "team": "Spain",
-      "code": "ES",
-      "win_world_cup": 28.2,
-      "reach_final": 97.1,
-      "reach_semifinal": 61.4,
-      "reach_quarterfinal": 69.8,
+      "team": "Argentina",
+      "code": "AR",
+      "win_world_cup": 24.7,
+      "reach_final": 73.7,
+      "reach_semifinal": 57.9,
+      "reach_quarterfinal": 74.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
-      "team": "Argentina",
-      "code": "AR",
-      "win_world_cup": 24.0,
-      "reach_final": 74.6,
-      "reach_semifinal": 58.1,
-      "reach_quarterfinal": 75.0,
+      "team": "Spain",
+      "code": "ES",
+      "win_world_cup": 24.1,
+      "reach_final": 72.6,
+      "reach_semifinal": 60.5,
+      "reach_quarterfinal": 68.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "France",
       "code": "FR",
-      "win_world_cup": 18.5,
-      "reach_final": 60.9,
-      "reach_semifinal": 51.8,
-      "reach_quarterfinal": 73.0,
+      "win_world_cup": 22.2,
+      "reach_final": 80.0,
+      "reach_semifinal": 52.0,
+      "reach_quarterfinal": 73.3,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "England",
       "code": "EN",
-      "win_world_cup": 6.5,
-      "reach_final": 27.0,
-      "reach_semifinal": 29.1,
-      "reach_quarterfinal": 62.1,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "Brazil",
-      "code": "BR",
-      "win_world_cup": 4.9,
-      "reach_final": 26.9,
-      "reach_semifinal": 30.3,
-      "reach_quarterfinal": 40.9,
+      "win_world_cup": 7.6,
+      "reach_final": 38.8,
+      "reach_semifinal": 29.3,
+      "reach_quarterfinal": 62.9,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Colombia",
       "code": "CO",
-      "win_world_cup": 4.8,
-      "reach_final": 21.5,
-      "reach_semifinal": 27.2,
-      "reach_quarterfinal": 72.3,
+      "win_world_cup": 5.1,
+      "reach_final": 23.1,
+      "reach_semifinal": 27.8,
+      "reach_quarterfinal": 73.3,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Brazil",
+      "code": "BR",
+      "win_world_cup": 4.7,
+      "reach_final": 25.8,
+      "reach_semifinal": 30.6,
+      "reach_quarterfinal": 41.2,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Netherlands",
       "code": "NL",
-      "win_world_cup": 3.5,
-      "reach_final": 19.5,
-      "reach_semifinal": 24.2,
-      "reach_quarterfinal": 34.5,
+      "win_world_cup": 3.0,
+      "reach_final": 17.6,
+      "reach_semifinal": 23.8,
+      "reach_quarterfinal": 33.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Portugal",
       "code": "PT",
-      "win_world_cup": 2.9,
-      "reach_final": 15.7,
-      "reach_semifinal": 14.7,
-      "reach_quarterfinal": 19.9,
+      "win_world_cup": 2.8,
+      "reach_final": 12.2,
+      "reach_semifinal": 15.0,
+      "reach_quarterfinal": 20.3,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Germany",
       "code": "DE",
-      "win_world_cup": 1.8,
-      "reach_final": 13.5,
-      "reach_semifinal": 21.8,
-      "reach_quarterfinal": 53.0,
+      "win_world_cup": 1.2,
+      "reach_final": 12.0,
+      "reach_semifinal": 22.0,
+      "reach_quarterfinal": 53.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Norway",
       "code": "NO",
-      "win_world_cup": 0.7,
-      "reach_final": 4.3,
-      "reach_semifinal": 7.5,
-      "reach_quarterfinal": 19.4,
+      "win_world_cup": 0.8,
+      "reach_final": 6.4,
+      "reach_semifinal": 7.3,
+      "reach_quarterfinal": 19.2,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Switzerland",
       "code": "CH",
-      "win_world_cup": 0.6,
-      "reach_final": 4.0,
-      "reach_semifinal": 7.5,
-      "reach_quarterfinal": 16.0,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "Japan",
-      "code": "JP",
-      "win_world_cup": 0.6,
-      "reach_final": 5.0,
-      "reach_semifinal": 8.6,
-      "reach_quarterfinal": 13.8,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "Belgium",
-      "code": "BE",
-      "win_world_cup": 0.6,
-      "reach_final": 6.5,
-      "reach_semifinal": 8.4,
-      "reach_quarterfinal": 40.2,
+      "win_world_cup": 0.7,
+      "reach_final": 5.1,
+      "reach_semifinal": 7.7,
+      "reach_quarterfinal": 17.0,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Mexico",
       "code": "MX",
+      "win_world_cup": 0.6,
+      "reach_final": 5.4,
+      "reach_semifinal": 6.4,
+      "reach_quarterfinal": 21.6,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Belgium",
+      "code": "BE",
+      "win_world_cup": 0.5,
+      "reach_final": 3.1,
+      "reach_semifinal": 7.8,
+      "reach_quarterfinal": 40.0,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Japan",
+      "code": "JP",
       "win_world_cup": 0.4,
-      "reach_final": 3.0,
-      "reach_semifinal": 6.1,
-      "reach_quarterfinal": 22.0,
+      "reach_final": 4.8,
+      "reach_semifinal": 8.2,
+      "reach_quarterfinal": 13.7,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Ecuador",
+      "code": "EC",
+      "win_world_cup": 0.4,
+      "reach_final": 2.9,
+      "reach_semifinal": 3.4,
+      "reach_quarterfinal": 13.0,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -380,59 +390,39 @@
       "team": "Croatia",
       "code": "HR",
       "win_world_cup": 0.3,
-      "reach_final": 3.2,
-      "reach_semifinal": 4.2,
-      "reach_quarterfinal": 6.8,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "Ecuador",
-      "code": "EC",
-      "win_world_cup": 0.3,
-      "reach_final": 2.0,
-      "reach_semifinal": 3.9,
-      "reach_quarterfinal": 13.6,
+      "reach_final": 2.4,
+      "reach_semifinal": 4.3,
+      "reach_quarterfinal": 7.3,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Morocco",
       "code": "MA",
-      "win_world_cup": 0.3,
+      "win_world_cup": 0.2,
       "reach_final": 2.7,
-      "reach_semifinal": 5.8,
-      "reach_quarterfinal": 10.8,
+      "reach_semifinal": 6.3,
+      "reach_quarterfinal": 11.2,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Senegal",
       "code": "SN",
-      "win_world_cup": 0.3,
-      "reach_final": 3.3,
-      "reach_semifinal": 5.1,
-      "reach_quarterfinal": 27.9,
+      "win_world_cup": 0.2,
+      "reach_final": 2.0,
+      "reach_semifinal": 5.2,
+      "reach_quarterfinal": 28.1,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
     {
       "team": "Paraguay",
       "code": "PY",
-      "win_world_cup": 0.2,
-      "reach_final": 2.4,
-      "reach_semifinal": 5.5,
-      "reach_quarterfinal": 21.9,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "Austria",
-      "code": "AT",
       "win_world_cup": 0.1,
-      "reach_final": 1.0,
-      "reach_semifinal": 1.9,
-      "reach_quarterfinal": 3.6,
+      "reach_final": 1.7,
+      "reach_semifinal": 4.7,
+      "reach_quarterfinal": 20.9,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -440,9 +430,9 @@
       "team": "Australia",
       "code": "AU",
       "win_world_cup": 0.1,
-      "reach_final": 1.0,
-      "reach_semifinal": 3.1,
-      "reach_quarterfinal": 16.4,
+      "reach_final": 1.7,
+      "reach_semifinal": 3.0,
+      "reach_quarterfinal": 15.8,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -450,9 +440,9 @@
       "team": "United States",
       "code": "US",
       "win_world_cup": 0.1,
-      "reach_final": 1.8,
-      "reach_semifinal": 4.0,
-      "reach_quarterfinal": 29.4,
+      "reach_final": 2.2,
+      "reach_semifinal": 5.4,
+      "reach_quarterfinal": 29.9,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -460,19 +450,9 @@
       "team": "Canada",
       "code": "CA",
       "win_world_cup": 0.1,
-      "reach_final": 1.1,
-      "reach_semifinal": 3.4,
-      "reach_quarterfinal": 22.1,
-      "advance_from_group_or_r32": 100.0,
-      "change_vs_yesterday": null
-    },
-    {
-      "team": "Egypt",
-      "code": "EG",
-      "win_world_cup": 0.1,
-      "reach_final": 0.5,
-      "reach_semifinal": 1.7,
-      "reach_quarterfinal": 9.0,
+      "reach_final": 1.3,
+      "reach_semifinal": 4.0,
+      "reach_quarterfinal": 22.3,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -497,12 +477,22 @@
       "change_vs_yesterday": null
     },
     {
+      "team": "Austria",
+      "code": "AT",
+      "win_world_cup": 0.0,
+      "reach_final": 0.6,
+      "reach_semifinal": 1.6,
+      "reach_quarterfinal": 3.6,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
       "team": "Algeria",
       "code": "DZ",
       "win_world_cup": 0.0,
-      "reach_final": 0.4,
-      "reach_semifinal": 1.7,
-      "reach_quarterfinal": 5.9,
+      "reach_final": 0.6,
+      "reach_semifinal": 1.4,
+      "reach_quarterfinal": 5.2,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -521,8 +511,8 @@
       "code": "CI",
       "win_world_cup": 0.0,
       "reach_final": 0.3,
-      "reach_semifinal": 0.6,
-      "reach_quarterfinal": 3.9,
+      "reach_semifinal": 0.5,
+      "reach_quarterfinal": 4.2,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -530,9 +520,19 @@
       "team": "Sweden",
       "code": "SE",
       "win_world_cup": 0.0,
-      "reach_final": 0.2,
-      "reach_semifinal": 0.7,
-      "reach_quarterfinal": 3.6,
+      "reach_final": 0.3,
+      "reach_semifinal": 0.6,
+      "reach_quarterfinal": 3.3,
+      "advance_from_group_or_r32": 100.0,
+      "change_vs_yesterday": null
+    },
+    {
+      "team": "Egypt",
+      "code": "EG",
+      "win_world_cup": 0.0,
+      "reach_final": 0.5,
+      "reach_semifinal": 1.4,
+      "reach_quarterfinal": 8.3,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -551,8 +551,8 @@
       "code": "CD",
       "win_world_cup": 0.0,
       "reach_final": 0.1,
-      "reach_semifinal": 0.3,
-      "reach_quarterfinal": 2.3,
+      "reach_semifinal": 0.6,
+      "reach_quarterfinal": 2.5,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -600,9 +600,9 @@
       "team": "Bosnia and Herzegovina",
       "code": "BA",
       "win_world_cup": 0.0,
-      "reach_final": 0.1,
-      "reach_semifinal": 0.3,
-      "reach_quarterfinal": 2.5,
+      "reach_final": 0.0,
+      "reach_semifinal": 0.2,
+      "reach_quarterfinal": 2.1,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -622,7 +622,7 @@
       "win_world_cup": 0.0,
       "reach_final": 0.0,
       "reach_semifinal": 0.3,
-      "reach_quarterfinal": 2.3,
+      "reach_quarterfinal": 2.6,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -630,9 +630,9 @@
       "team": "South Africa",
       "code": "ZA",
       "win_world_cup": 0.0,
-      "reach_final": 0.2,
-      "reach_semifinal": 0.5,
-      "reach_quarterfinal": 3.0,
+      "reach_final": 0.1,
+      "reach_semifinal": 0.4,
+      "reach_quarterfinal": 3.1,
       "advance_from_group_or_r32": 100.0,
       "change_vs_yesterday": null
     },
@@ -1839,61 +1839,71 @@
         {
           "opponent_code": "AR",
           "opponent_team": "Argentina",
-          "probability": 57.7
+          "probability": 56.1
         },
         {
           "opponent_code": "CPV",
           "opponent_team": "Cape Verde",
-          "probability": 42.3
+          "probability": 43.9
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "CO",
           "opponent_team": "Colombia",
-          "probability": 51.0
+          "probability": 49.4
         },
         {
           "opponent_code": "AU",
           "opponent_team": "Australia",
-          "probability": 26.5
+          "probability": 25.9
         },
         {
           "opponent_code": "EG",
           "opponent_team": "Egypt",
-          "probability": 14.7
+          "probability": 16.0
         },
         {
           "opponent_code": "GH",
           "opponent_team": "Ghana",
-          "probability": 7.8
+          "probability": 8.6
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "EN",
-          "opponent_team": "England",
-          "probability": 30.8
+          "opponent_code": "ES",
+          "opponent_team": "Spain",
+          "probability": 41.2
         },
         {
-          "opponent_code": "NO",
-          "opponent_team": "Norway",
-          "probability": 23.1
+          "opponent_code": "HR",
+          "opponent_team": "Croatia",
+          "probability": 17.6
         },
         {
-          "opponent_code": "FR",
-          "opponent_team": "France",
-          "probability": 23.1
+          "opponent_code": "SN",
+          "opponent_team": "Senegal",
+          "probability": 11.8
         },
         {
-          "opponent_code": "MX",
-          "opponent_team": "Mexico",
-          "probability": 15.4
+          "opponent_code": "US",
+          "opponent_team": "United States",
+          "probability": 11.8
         },
         {
-          "opponent_code": "EC",
-          "opponent_team": "Ecuador",
-          "probability": 7.7
+          "opponent_code": "BE",
+          "opponent_team": "Belgium",
+          "probability": 5.9
+        },
+        {
+          "opponent_code": "AT",
+          "opponent_team": "Austria",
+          "probability": 5.9
+        },
+        {
+          "opponent_code": "PT",
+          "opponent_team": "Portugal",
+          "probability": 5.9
         }
       ]
     },
@@ -1904,75 +1914,75 @@
         {
           "opponent_code": "CH",
           "opponent_team": "Switzerland",
-          "probability": 70.4
+          "probability": 72.3
         },
         {
           "opponent_code": "DZ",
           "opponent_team": "Algeria",
-          "probability": 29.6
+          "probability": 27.7
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "CO",
           "opponent_team": "Colombia",
-          "probability": 68.9
+          "probability": 69.7
         },
         {
           "opponent_code": "AU",
           "opponent_team": "Australia",
-          "probability": 18.5
+          "probability": 17.9
         },
         {
           "opponent_code": "EG",
           "opponent_team": "Egypt",
-          "probability": 10.1
+          "probability": 9.4
         },
         {
           "opponent_code": "GH",
           "opponent_team": "Ghana",
-          "probability": 2.5
+          "probability": 3.0
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "FR",
-          "opponent_team": "France",
-          "probability": 44.1
+          "opponent_code": "ES",
+          "opponent_team": "Spain",
+          "probability": 49.9
         },
         {
-          "opponent_code": "EN",
-          "opponent_team": "England",
-          "probability": 30.6
+          "opponent_code": "PT",
+          "opponent_team": "Portugal",
+          "probability": 16.1
         },
         {
-          "opponent_code": "NO",
-          "opponent_team": "Norway",
-          "probability": 9.7
+          "opponent_code": "BE",
+          "opponent_team": "Belgium",
+          "probability": 11.3
         },
         {
-          "opponent_code": "MX",
-          "opponent_team": "Mexico",
-          "probability": 8.4
+          "opponent_code": "SN",
+          "opponent_team": "Senegal",
+          "probability": 7.3
         },
         {
-          "opponent_code": "EC",
-          "opponent_team": "Ecuador",
-          "probability": 5.3
+          "opponent_code": "US",
+          "opponent_team": "United States",
+          "probability": 7.1
         },
         {
-          "opponent_code": "SE",
-          "opponent_team": "Sweden",
-          "probability": 1.1
+          "opponent_code": "HR",
+          "opponent_team": "Croatia",
+          "probability": 5.6
         },
         {
-          "opponent_code": "CD",
-          "opponent_team": "DR Congo",
-          "probability": 0.4
+          "opponent_code": "AT",
+          "opponent_team": "Austria",
+          "probability": 2.4
         },
         {
-          "opponent_code": "CI",
-          "opponent_team": "C\u00f4te d'Ivoire",
+          "opponent_code": "BA",
+          "opponent_team": "Bosnia and Herzegovina",
           "probability": 0.4
         }
       ]
@@ -1984,66 +1994,71 @@
         {
           "opponent_code": "CO",
           "opponent_team": "Colombia",
-          "probability": 62.2
+          "probability": 63.6
         },
         {
           "opponent_code": "GH",
           "opponent_team": "Ghana",
-          "probability": 37.8
+          "probability": 36.4
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "AR",
           "opponent_team": "Argentina",
-          "probability": 45.1
+          "probability": 49.4
         },
         {
           "opponent_code": "CH",
           "opponent_team": "Switzerland",
-          "probability": 27.2
+          "probability": 28.1
         },
         {
           "opponent_code": "DZ",
           "opponent_team": "Algeria",
-          "probability": 14.1
+          "probability": 11.8
         },
         {
           "opponent_code": "CPV",
           "opponent_team": "Cape Verde",
-          "probability": 13.6
+          "probability": 10.7
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "FR",
-          "opponent_team": "France",
-          "probability": 48.4
+          "opponent_code": "ES",
+          "opponent_team": "Spain",
+          "probability": 29.4
         },
         {
-          "opponent_code": "NO",
-          "opponent_team": "Norway",
-          "probability": 16.1
+          "opponent_code": "BE",
+          "opponent_team": "Belgium",
+          "probability": 21.6
         },
         {
-          "opponent_code": "EN",
-          "opponent_team": "England",
-          "probability": 12.9
+          "opponent_code": "US",
+          "opponent_team": "United States",
+          "probability": 19.6
         },
         {
-          "opponent_code": "MX",
-          "opponent_team": "Mexico",
-          "probability": 9.7
+          "opponent_code": "PT",
+          "opponent_team": "Portugal",
+          "probability": 15.7
         },
         {
-          "opponent_code": "EC",
-          "opponent_team": "Ecuador",
-          "probability": 9.7
+          "opponent_code": "SN",
+          "opponent_team": "Senegal",
+          "probability": 5.9
         },
         {
-          "opponent_code": "CD",
-          "opponent_team": "DR Congo",
-          "probability": 3.2
+          "opponent_code": "AT",
+          "opponent_team": "Austria",
+          "probability": 3.9
+        },
+        {
+          "opponent_code": "HR",
+          "opponent_team": "Croatia",
+          "probability": 3.9
         }
       ]
     },
@@ -2054,71 +2069,61 @@
         {
           "opponent_code": "PT",
           "opponent_team": "Portugal",
-          "probability": 54.7
+          "probability": 53.9
         },
         {
           "opponent_code": "HR",
           "opponent_team": "Croatia",
-          "probability": 45.3
+          "probability": 46.1
         }
       ],
       "semifinal_opponents": [
-        {
-          "opponent_code": "BE",
-          "opponent_team": "Belgium",
-          "probability": 36.0
-        },
         {
           "opponent_code": "US",
           "opponent_team": "United States",
           "probability": 33.3
         },
         {
+          "opponent_code": "BE",
+          "opponent_team": "Belgium",
+          "probability": 31.3
+        },
+        {
           "opponent_code": "SN",
           "opponent_team": "Senegal",
-          "probability": 28.1
+          "probability": 31.3
         },
         {
           "opponent_code": "BA",
           "opponent_team": "Bosnia and Herzegovina",
-          "probability": 2.6
+          "probability": 4.0
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "DE",
-          "opponent_team": "Germany",
-          "probability": 36.7
+          "opponent_code": "AR",
+          "opponent_team": "Argentina",
+          "probability": 33.3
         },
         {
-          "opponent_code": "BR",
-          "opponent_team": "Brazil",
-          "probability": 20.0
+          "opponent_code": "CO",
+          "opponent_team": "Colombia",
+          "probability": 27.8
         },
         {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 16.7
+          "opponent_code": "EG",
+          "opponent_team": "Egypt",
+          "probability": 22.2
         },
         {
-          "opponent_code": "PY",
-          "opponent_team": "Paraguay",
-          "probability": 13.3
+          "opponent_code": "CH",
+          "opponent_team": "Switzerland",
+          "probability": 11.1
         },
         {
-          "opponent_code": "CA",
-          "opponent_team": "Canada",
-          "probability": 6.7
-        },
-        {
-          "opponent_code": "ZA",
-          "opponent_team": "South Africa",
-          "probability": 3.3
-        },
-        {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 3.3
+          "opponent_code": "GH",
+          "opponent_team": "Ghana",
+          "probability": 5.6
         }
       ]
     },
@@ -2141,64 +2146,59 @@
         {
           "opponent_code": "ES",
           "opponent_team": "Spain",
-          "probability": 41.6
+          "probability": 36.0
         },
         {
           "opponent_code": "PT",
           "opponent_team": "Portugal",
-          "probability": 31.6
+          "probability": 34.0
         },
         {
           "opponent_code": "HR",
           "opponent_team": "Croatia",
-          "probability": 17.2
+          "probability": 18.4
         },
         {
           "opponent_code": "AT",
           "opponent_team": "Austria",
-          "probability": 9.7
+          "probability": 11.6
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "DE",
-          "opponent_team": "Germany",
-          "probability": 22.7
+          "opponent_code": "CO",
+          "opponent_team": "Colombia",
+          "probability": 34.4
         },
         {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 22.7
+          "opponent_code": "AR",
+          "opponent_team": "Argentina",
+          "probability": 25.8
         },
         {
-          "opponent_code": "BR",
-          "opponent_team": "Brazil",
-          "probability": 20.1
+          "opponent_code": "CH",
+          "opponent_team": "Switzerland",
+          "probability": 19.4
         },
         {
-          "opponent_code": "JP",
-          "opponent_team": "Japan",
-          "probability": 12.9
+          "opponent_code": "AU",
+          "opponent_team": "Australia",
+          "probability": 8.6
         },
         {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 10.3
+          "opponent_code": "DZ",
+          "opponent_team": "Algeria",
+          "probability": 5.4
         },
         {
-          "opponent_code": "PY",
-          "opponent_team": "Paraguay",
-          "probability": 5.7
+          "opponent_code": "CPV",
+          "opponent_team": "Cape Verde",
+          "probability": 4.3
         },
         {
-          "opponent_code": "CA",
-          "opponent_team": "Canada",
-          "probability": 5.2
-        },
-        {
-          "opponent_code": "ZA",
-          "opponent_team": "South Africa",
-          "probability": 0.5
+          "opponent_code": "EG",
+          "opponent_team": "Egypt",
+          "probability": 2.2
         }
       ]
     },
@@ -2207,53 +2207,38 @@
       "team": "Bosnia and Herzegovina",
       "quarterfinal_opponents": [
         {
-          "opponent_code": "BE",
-          "opponent_team": "Belgium",
-          "probability": 59.2
-        },
-        {
           "opponent_code": "SN",
           "opponent_team": "Senegal",
-          "probability": 40.8
+          "probability": 56.7
+        },
+        {
+          "opponent_code": "BE",
+          "opponent_team": "Belgium",
+          "probability": 43.3
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "ES",
           "opponent_team": "Spain",
-          "probability": 62.5
+          "probability": 61.5
         },
         {
           "opponent_code": "PT",
           "opponent_team": "Portugal",
-          "probability": 18.8
+          "probability": 30.8
         },
         {
           "opponent_code": "AT",
           "opponent_team": "Austria",
-          "probability": 12.5
-        },
-        {
-          "opponent_code": "HR",
-          "opponent_team": "Croatia",
-          "probability": 6.2
+          "probability": 7.7
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 33.3
-        },
-        {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 33.3
-        },
-        {
-          "opponent_code": "JP",
-          "opponent_team": "Japan",
-          "probability": 33.3
+          "opponent_code": "AR",
+          "opponent_team": "Argentina",
+          "probability": 100.0
         }
       ]
     },
@@ -2264,76 +2249,76 @@
         {
           "opponent_code": "NL",
           "opponent_team": "Netherlands",
-          "probability": 62.4
+          "probability": 61.1
         },
         {
           "opponent_code": "MA",
           "opponent_team": "Morocco",
-          "probability": 37.6
+          "probability": 38.9
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "DE",
           "opponent_team": "Germany",
-          "probability": 45.9
+          "probability": 48.2
         },
         {
           "opponent_code": "CA",
           "opponent_team": "Canada",
-          "probability": 27.1
+          "probability": 25.8
         },
         {
           "opponent_code": "PY",
           "opponent_team": "Paraguay",
-          "probability": 23.8
+          "probability": 22.5
         },
         {
           "opponent_code": "ZA",
           "opponent_team": "South Africa",
-          "probability": 3.2
+          "probability": 3.4
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "ES",
-          "opponent_team": "Spain",
-          "probability": 37.8
+          "opponent_code": "FR",
+          "opponent_team": "France",
+          "probability": 38.3
         },
         {
-          "opponent_code": "PT",
-          "opponent_team": "Portugal",
-          "probability": 19.7
+          "opponent_code": "EN",
+          "opponent_team": "England",
+          "probability": 30.4
         },
         {
-          "opponent_code": "BE",
-          "opponent_team": "Belgium",
-          "probability": 13.9
+          "opponent_code": "NO",
+          "opponent_team": "Norway",
+          "probability": 12.4
         },
         {
-          "opponent_code": "US",
-          "opponent_team": "United States",
-          "probability": 9.0
+          "opponent_code": "MX",
+          "opponent_team": "Mexico",
+          "probability": 10.7
         },
         {
-          "opponent_code": "SN",
-          "opponent_team": "Senegal",
-          "probability": 8.3
+          "opponent_code": "EC",
+          "opponent_team": "Ecuador",
+          "probability": 4.7
         },
         {
-          "opponent_code": "HR",
-          "opponent_team": "Croatia",
-          "probability": 7.6
+          "opponent_code": "CD",
+          "opponent_team": "DR Congo",
+          "probability": 1.4
         },
         {
-          "opponent_code": "AT",
-          "opponent_team": "Austria",
-          "probability": 3.6
+          "opponent_code": "CI",
+          "opponent_team": "C\u00f4te d'Ivoire",
+          "probability": 1.2
         },
         {
-          "opponent_code": "BA",
-          "opponent_team": "Bosnia and Herzegovina",
-          "probability": 0.1
+          "opponent_code": "SE",
+          "opponent_team": "Sweden",
+          "probability": 0.9
         }
       ]
     },
@@ -2344,76 +2329,66 @@
         {
           "opponent_code": "DE",
           "opponent_team": "Germany",
-          "probability": 53.6
+          "probability": 54.0
         },
         {
           "opponent_code": "PY",
           "opponent_team": "Paraguay",
-          "probability": 46.4
+          "probability": 46.0
         }
       ],
       "semifinal_opponents": [
         {
-          "opponent_code": "BR",
-          "opponent_team": "Brazil",
-          "probability": 33.8
-        },
-        {
           "opponent_code": "NL",
           "opponent_team": "Netherlands",
-          "probability": 32.8
+          "probability": 31.2
         },
         {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 17.4
+          "opponent_code": "BR",
+          "opponent_team": "Brazil",
+          "probability": 30.0
         },
         {
           "opponent_code": "JP",
           "opponent_team": "Japan",
-          "probability": 15.9
+          "probability": 20.4
+        },
+        {
+          "opponent_code": "MA",
+          "opponent_team": "Morocco",
+          "probability": 18.3
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "ES",
-          "opponent_team": "Spain",
-          "probability": 27.3
+          "opponent_code": "FR",
+          "opponent_team": "France",
+          "probability": 51.3
         },
         {
-          "opponent_code": "BE",
-          "opponent_team": "Belgium",
-          "probability": 18.2
+          "opponent_code": "NO",
+          "opponent_team": "Norway",
+          "probability": 17.9
         },
         {
-          "opponent_code": "PT",
-          "opponent_team": "Portugal",
-          "probability": 15.2
+          "opponent_code": "EN",
+          "opponent_team": "England",
+          "probability": 17.9
         },
         {
-          "opponent_code": "SN",
-          "opponent_team": "Senegal",
-          "probability": 15.2
+          "opponent_code": "MX",
+          "opponent_team": "Mexico",
+          "probability": 7.7
         },
         {
-          "opponent_code": "HR",
-          "opponent_team": "Croatia",
-          "probability": 12.1
+          "opponent_code": "CI",
+          "opponent_team": "C\u00f4te d'Ivoire",
+          "probability": 2.6
         },
         {
-          "opponent_code": "AT",
-          "opponent_team": "Austria",
-          "probability": 6.1
-        },
-        {
-          "opponent_code": "BA",
-          "opponent_team": "Bosnia and Herzegovina",
-          "probability": 3.0
-        },
-        {
-          "opponent_code": "US",
-          "opponent_team": "United States",
-          "probability": 3.0
+          "opponent_code": "SE",
+          "opponent_team": "Sweden",
+          "probability": 2.6
         }
       ]
     },
@@ -2424,51 +2399,51 @@
         {
           "opponent_code": "CH",
           "opponent_team": "Switzerland",
-          "probability": 55.7
+          "probability": 55.8
         },
         {
           "opponent_code": "DZ",
           "opponent_team": "Algeria",
-          "probability": 44.3
+          "probability": 44.2
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "CO",
           "opponent_team": "Colombia",
-          "probability": 46.4
+          "probability": 44.7
         },
         {
           "opponent_code": "AU",
           "opponent_team": "Australia",
-          "probability": 25.0
-        },
-        {
-          "opponent_code": "EG",
-          "opponent_team": "Egypt",
-          "probability": 14.3
+          "probability": 28.9
         },
         {
           "opponent_code": "GH",
           "opponent_team": "Ghana",
-          "probability": 14.3
+          "probability": 18.4
+        },
+        {
+          "opponent_code": "EG",
+          "opponent_team": "Egypt",
+          "probability": 7.9
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "FR",
-          "opponent_team": "France",
-          "probability": 50.0
+          "opponent_code": "BE",
+          "opponent_team": "Belgium",
+          "probability": 40.0
         },
         {
-          "opponent_code": "EN",
-          "opponent_team": "England",
-          "probability": 25.0
+          "opponent_code": "ES",
+          "opponent_team": "Spain",
+          "probability": 40.0
         },
         {
-          "opponent_code": "SE",
-          "opponent_team": "Sweden",
-          "probability": 25.0
+          "opponent_code": "HR",
+          "opponent_team": "Croatia",
+          "probability": 20.0
         }
       ]
     },
@@ -2479,76 +2454,76 @@
         {
           "opponent_code": "AU",
           "opponent_team": "Australia",
-          "probability": 57.8
+          "probability": 56.9
         },
         {
           "opponent_code": "EG",
           "opponent_team": "Egypt",
-          "probability": 42.2
+          "probability": 43.1
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "AR",
           "opponent_team": "Argentina",
-          "probability": 53.1
+          "probability": 52.2
         },
         {
           "opponent_code": "CH",
           "opponent_team": "Switzerland",
-          "probability": 26.3
+          "probability": 29.0
         },
         {
           "opponent_code": "DZ",
           "opponent_team": "Algeria",
-          "probability": 13.1
+          "probability": 11.8
         },
         {
           "opponent_code": "CPV",
           "opponent_team": "Cape Verde",
-          "probability": 7.5
+          "probability": 7.0
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "FR",
-          "opponent_team": "France",
-          "probability": 36.6
+          "opponent_code": "ES",
+          "opponent_team": "Spain",
+          "probability": 36.9
         },
         {
-          "opponent_code": "EN",
-          "opponent_team": "England",
-          "probability": 31.9
+          "opponent_code": "PT",
+          "opponent_team": "Portugal",
+          "probability": 20.0
         },
         {
-          "opponent_code": "NO",
-          "opponent_team": "Norway",
-          "probability": 11.6
+          "opponent_code": "BE",
+          "opponent_team": "Belgium",
+          "probability": 12.7
         },
         {
-          "opponent_code": "MX",
-          "opponent_team": "Mexico",
-          "probability": 10.4
+          "opponent_code": "SN",
+          "opponent_team": "Senegal",
+          "probability": 10.2
         },
         {
-          "opponent_code": "EC",
-          "opponent_team": "Ecuador",
-          "probability": 5.3
+          "opponent_code": "US",
+          "opponent_team": "United States",
+          "probability": 9.2
         },
         {
-          "opponent_code": "CI",
-          "opponent_team": "C\u00f4te d'Ivoire",
-          "probability": 2.5
+          "opponent_code": "HR",
+          "opponent_team": "Croatia",
+          "probability": 7.6
         },
         {
-          "opponent_code": "CD",
-          "opponent_team": "DR Congo",
-          "probability": 0.9
+          "opponent_code": "AT",
+          "opponent_team": "Austria",
+          "probability": 3.0
         },
         {
-          "opponent_code": "SE",
-          "opponent_team": "Sweden",
-          "probability": 0.8
+          "opponent_code": "BA",
+          "opponent_team": "Bosnia and Herzegovina",
+          "probability": 0.3
         }
       ]
     },
@@ -2559,71 +2534,71 @@
         {
           "opponent_code": "ES",
           "opponent_team": "Spain",
-          "probability": 61.8
+          "probability": 61.9
         },
         {
           "opponent_code": "AT",
           "opponent_team": "Austria",
-          "probability": 38.2
+          "probability": 38.1
         }
       ],
       "semifinal_opponents": [
         {
-          "opponent_code": "BE",
-          "opponent_team": "Belgium",
-          "probability": 37.3
-        },
-        {
           "opponent_code": "US",
           "opponent_team": "United States",
-          "probability": 31.8
+          "probability": 35.0
+        },
+        {
+          "opponent_code": "BE",
+          "opponent_team": "Belgium",
+          "probability": 33.1
         },
         {
           "opponent_code": "SN",
           "opponent_team": "Senegal",
-          "probability": 29.0
+          "probability": 28.8
         },
         {
           "opponent_code": "BA",
           "opponent_team": "Bosnia and Herzegovina",
-          "probability": 2.0
+          "probability": 3.1
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 30.5
+          "opponent_code": "AR",
+          "opponent_team": "Argentina",
+          "probability": 39.4
         },
         {
-          "opponent_code": "DE",
-          "opponent_team": "Germany",
-          "probability": 22.1
+          "opponent_code": "CO",
+          "opponent_team": "Colombia",
+          "probability": 29.6
         },
         {
-          "opponent_code": "BR",
-          "opponent_team": "Brazil",
-          "probability": 20.0
+          "opponent_code": "CH",
+          "opponent_team": "Switzerland",
+          "probability": 18.3
         },
         {
-          "opponent_code": "PY",
-          "opponent_team": "Paraguay",
-          "probability": 7.4
+          "opponent_code": "DZ",
+          "opponent_team": "Algeria",
+          "probability": 4.2
         },
         {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 7.4
+          "opponent_code": "EG",
+          "opponent_team": "Egypt",
+          "probability": 4.2
         },
         {
-          "opponent_code": "CA",
-          "opponent_team": "Canada",
-          "probability": 6.3
+          "opponent_code": "CPV",
+          "opponent_team": "Cape Verde",
+          "probability": 2.8
         },
         {
-          "opponent_code": "JP",
-          "opponent_team": "Japan",
-          "probability": 6.3
+          "opponent_code": "GH",
+          "opponent_team": "Ghana",
+          "probability": 1.4
         }
       ]
     },
@@ -2634,61 +2609,61 @@
         {
           "opponent_code": "FR",
           "opponent_team": "France",
-          "probability": 61.4
+          "probability": 63.7
         },
         {
           "opponent_code": "SE",
           "opponent_team": "Sweden",
-          "probability": 38.6
+          "probability": 36.3
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "EN",
           "opponent_team": "England",
-          "probability": 33.3
+          "probability": 38.7
         },
         {
           "opponent_code": "EC",
           "opponent_team": "Ecuador",
-          "probability": 30.3
+          "probability": 29.0
         },
         {
           "opponent_code": "MX",
           "opponent_team": "Mexico",
-          "probability": 30.3
+          "probability": 22.6
         },
         {
           "opponent_code": "CD",
           "opponent_team": "DR Congo",
-          "probability": 6.1
+          "probability": 9.7
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "AR",
-          "opponent_team": "Argentina",
-          "probability": 44.4
+          "opponent_code": "BR",
+          "opponent_team": "Brazil",
+          "probability": 37.5
         },
         {
-          "opponent_code": "DZ",
-          "opponent_team": "Algeria",
-          "probability": 22.2
+          "opponent_code": "DE",
+          "opponent_team": "Germany",
+          "probability": 25.0
         },
         {
-          "opponent_code": "AU",
-          "opponent_team": "Australia",
-          "probability": 11.1
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
+          "probability": 12.5
         },
         {
-          "opponent_code": "GH",
-          "opponent_team": "Ghana",
-          "probability": 11.1
+          "opponent_code": "MA",
+          "opponent_team": "Morocco",
+          "probability": 12.5
         },
         {
-          "opponent_code": "CH",
-          "opponent_team": "Switzerland",
-          "probability": 11.1
+          "opponent_code": "CA",
+          "opponent_team": "Canada",
+          "probability": 12.5
         }
       ]
     },
@@ -2699,50 +2674,50 @@
         {
           "opponent_code": "MX",
           "opponent_team": "Mexico",
-          "probability": 54.4
+          "probability": 60.1
         },
         {
           "opponent_code": "EC",
           "opponent_team": "Ecuador",
-          "probability": 45.6
+          "probability": 39.9
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "FR",
           "opponent_team": "France",
-          "probability": 42.9
+          "probability": 58.3
         },
         {
           "opponent_code": "NO",
           "opponent_team": "Norway",
-          "probability": 33.3
+          "probability": 22.2
         },
         {
           "opponent_code": "CI",
           "opponent_team": "C\u00f4te d'Ivoire",
-          "probability": 19.0
+          "probability": 13.9
         },
         {
           "opponent_code": "SE",
           "opponent_team": "Sweden",
-          "probability": 4.8
+          "probability": 5.6
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "CO",
-          "opponent_team": "Colombia",
+          "opponent_code": "BR",
+          "opponent_team": "Brazil",
           "probability": 33.3
         },
         {
-          "opponent_code": "EG",
-          "opponent_team": "Egypt",
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
           "probability": 33.3
         },
         {
-          "opponent_code": "AR",
-          "opponent_team": "Argentina",
+          "opponent_code": "DE",
+          "opponent_team": "Germany",
           "probability": 33.3
         }
       ]
@@ -2750,506 +2725,6 @@
     {
       "team_code": "EC",
       "team": "Ecuador",
-      "quarterfinal_opponents": [
-        {
-          "opponent_code": "EN",
-          "opponent_team": "England",
-          "probability": 69.1
-        },
-        {
-          "opponent_code": "CD",
-          "opponent_team": "DR Congo",
-          "probability": 30.9
-        }
-      ],
-      "semifinal_opponents": [
-        {
-          "opponent_code": "FR",
-          "opponent_team": "France",
-          "probability": 47.4
-        },
-        {
-          "opponent_code": "NO",
-          "opponent_team": "Norway",
-          "probability": 28.9
-        },
-        {
-          "opponent_code": "CI",
-          "opponent_team": "C\u00f4te d'Ivoire",
-          "probability": 15.1
-        },
-        {
-          "opponent_code": "SE",
-          "opponent_team": "Sweden",
-          "probability": 8.6
-        }
-      ],
-      "final_opponents": [
-        {
-          "opponent_code": "CO",
-          "opponent_team": "Colombia",
-          "probability": 33.3
-        },
-        {
-          "opponent_code": "AR",
-          "opponent_team": "Argentina",
-          "probability": 33.3
-        },
-        {
-          "opponent_code": "CH",
-          "opponent_team": "Switzerland",
-          "probability": 18.3
-        },
-        {
-          "opponent_code": "AU",
-          "opponent_team": "Australia",
-          "probability": 5.0
-        },
-        {
-          "opponent_code": "EG",
-          "opponent_team": "Egypt",
-          "probability": 3.3
-        },
-        {
-          "opponent_code": "DZ",
-          "opponent_team": "Algeria",
-          "probability": 3.3
-        },
-        {
-          "opponent_code": "CPV",
-          "opponent_team": "Cape Verde",
-          "probability": 1.7
-        },
-        {
-          "opponent_code": "GH",
-          "opponent_team": "Ghana",
-          "probability": 1.7
-        }
-      ]
-    },
-    {
-      "team_code": "EG",
-      "team": "Egypt",
-      "quarterfinal_opponents": [
-        {
-          "opponent_code": "CO",
-          "opponent_team": "Colombia",
-          "probability": 53.2
-        },
-        {
-          "opponent_code": "GH",
-          "opponent_team": "Ghana",
-          "probability": 46.8
-        }
-      ],
-      "semifinal_opponents": [
-        {
-          "opponent_code": "AR",
-          "opponent_team": "Argentina",
-          "probability": 47.0
-        },
-        {
-          "opponent_code": "CH",
-          "opponent_team": "Switzerland",
-          "probability": 26.0
-        },
-        {
-          "opponent_code": "CPV",
-          "opponent_team": "Cape Verde",
-          "probability": 17.0
-        },
-        {
-          "opponent_code": "DZ",
-          "opponent_team": "Algeria",
-          "probability": 10.0
-        }
-      ],
-      "final_opponents": [
-        {
-          "opponent_code": "FR",
-          "opponent_team": "France",
-          "probability": 57.1
-        },
-        {
-          "opponent_code": "MX",
-          "opponent_team": "Mexico",
-          "probability": 21.4
-        },
-        {
-          "opponent_code": "EN",
-          "opponent_team": "England",
-          "probability": 7.1
-        },
-        {
-          "opponent_code": "NO",
-          "opponent_team": "Norway",
-          "probability": 7.1
-        },
-        {
-          "opponent_code": "EC",
-          "opponent_team": "Ecuador",
-          "probability": 7.1
-        }
-      ]
-    },
-    {
-      "team_code": "EN",
-      "team": "England",
-      "quarterfinal_opponents": [
-        {
-          "opponent_code": "MX",
-          "opponent_team": "Mexico",
-          "probability": 60.8
-        },
-        {
-          "opponent_code": "EC",
-          "opponent_team": "Ecuador",
-          "probability": 39.2
-        }
-      ],
-      "semifinal_opponents": [
-        {
-          "opponent_code": "FR",
-          "opponent_team": "France",
-          "probability": 56.2
-        },
-        {
-          "opponent_code": "NO",
-          "opponent_team": "Norway",
-          "probability": 29.9
-        },
-        {
-          "opponent_code": "CI",
-          "opponent_team": "C\u00f4te d'Ivoire",
-          "probability": 7.1
-        },
-        {
-          "opponent_code": "SE",
-          "opponent_team": "Sweden",
-          "probability": 6.8
-        }
-      ],
-      "final_opponents": [
-        {
-          "opponent_code": "AR",
-          "opponent_team": "Argentina",
-          "probability": 40.4
-        },
-        {
-          "opponent_code": "CO",
-          "opponent_team": "Colombia",
-          "probability": 32.0
-        },
-        {
-          "opponent_code": "CH",
-          "opponent_team": "Switzerland",
-          "probability": 13.8
-        },
-        {
-          "opponent_code": "AU",
-          "opponent_team": "Australia",
-          "probability": 4.9
-        },
-        {
-          "opponent_code": "EG",
-          "opponent_team": "Egypt",
-          "probability": 3.6
-        },
-        {
-          "opponent_code": "DZ",
-          "opponent_team": "Algeria",
-          "probability": 3.3
-        },
-        {
-          "opponent_code": "GH",
-          "opponent_team": "Ghana",
-          "probability": 1.1
-        },
-        {
-          "opponent_code": "CPV",
-          "opponent_team": "Cape Verde",
-          "probability": 0.7
-        }
-      ]
-    },
-    {
-      "team_code": "FR",
-      "team": "France",
-      "quarterfinal_opponents": [
-        {
-          "opponent_code": "NO",
-          "opponent_team": "Norway",
-          "probability": 76.7
-        },
-        {
-          "opponent_code": "CI",
-          "opponent_team": "C\u00f4te d'Ivoire",
-          "probability": 23.3
-        }
-      ],
-      "semifinal_opponents": [
-        {
-          "opponent_code": "EN",
-          "opponent_team": "England",
-          "probability": 55.4
-        },
-        {
-          "opponent_code": "MX",
-          "opponent_team": "Mexico",
-          "probability": 25.9
-        },
-        {
-          "opponent_code": "EC",
-          "opponent_team": "Ecuador",
-          "probability": 15.7
-        },
-        {
-          "opponent_code": "CD",
-          "opponent_team": "DR Congo",
-          "probability": 3.0
-        }
-      ],
-      "final_opponents": [
-        {
-          "opponent_code": "AR",
-          "opponent_team": "Argentina",
-          "probability": 44.7
-        },
-        {
-          "opponent_code": "CO",
-          "opponent_team": "Colombia",
-          "probability": 34.6
-        },
-        {
-          "opponent_code": "CH",
-          "opponent_team": "Switzerland",
-          "probability": 9.6
-        },
-        {
-          "opponent_code": "AU",
-          "opponent_team": "Australia",
-          "probability": 5.1
-        },
-        {
-          "opponent_code": "DZ",
-          "opponent_team": "Algeria",
-          "probability": 2.6
-        },
-        {
-          "opponent_code": "EG",
-          "opponent_team": "Egypt",
-          "probability": 2.5
-        },
-        {
-          "opponent_code": "CPV",
-          "opponent_team": "Cape Verde",
-          "probability": 0.5
-        },
-        {
-          "opponent_code": "GH",
-          "opponent_team": "Ghana",
-          "probability": 0.3
-        }
-      ]
-    },
-    {
-      "team_code": "DE",
-      "team": "Germany",
-      "quarterfinal_opponents": [
-        {
-          "opponent_code": "CA",
-          "opponent_team": "Canada",
-          "probability": 74.5
-        },
-        {
-          "opponent_code": "ZA",
-          "opponent_team": "South Africa",
-          "probability": 25.5
-        }
-      ],
-      "semifinal_opponents": [
-        {
-          "opponent_code": "BR",
-          "opponent_team": "Brazil",
-          "probability": 35.0
-        },
-        {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 33.1
-        },
-        {
-          "opponent_code": "JP",
-          "opponent_team": "Japan",
-          "probability": 16.2
-        },
-        {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 15.7
-        }
-      ],
-      "final_opponents": [
-        {
-          "opponent_code": "ES",
-          "opponent_team": "Spain",
-          "probability": 31.0
-        },
-        {
-          "opponent_code": "PT",
-          "opponent_team": "Portugal",
-          "probability": 21.7
-        },
-        {
-          "opponent_code": "BE",
-          "opponent_team": "Belgium",
-          "probability": 13.8
-        },
-        {
-          "opponent_code": "SN",
-          "opponent_team": "Senegal",
-          "probability": 10.8
-        },
-        {
-          "opponent_code": "US",
-          "opponent_team": "United States",
-          "probability": 9.1
-        },
-        {
-          "opponent_code": "HR",
-          "opponent_team": "Croatia",
-          "probability": 7.9
-        },
-        {
-          "opponent_code": "AT",
-          "opponent_team": "Austria",
-          "probability": 5.2
-        },
-        {
-          "opponent_code": "BA",
-          "opponent_team": "Bosnia and Herzegovina",
-          "probability": 0.5
-        }
-      ]
-    },
-    {
-      "team_code": "GH",
-      "team": "Ghana",
-      "quarterfinal_opponents": [
-        {
-          "opponent_code": "AU",
-          "opponent_team": "Australia",
-          "probability": 55.1
-        },
-        {
-          "opponent_code": "EG",
-          "opponent_team": "Egypt",
-          "probability": 44.9
-        }
-      ],
-      "semifinal_opponents": [
-        {
-          "opponent_code": "AR",
-          "opponent_team": "Argentina",
-          "probability": 85.7
-        },
-        {
-          "opponent_code": "CH",
-          "opponent_team": "Switzerland",
-          "probability": 14.3
-        }
-      ],
-      "final_opponents": [
-        {
-          "opponent_code": "FR",
-          "opponent_team": "France",
-          "probability": 100.0
-        }
-      ]
-    },
-    {
-      "team_code": "JP",
-      "team": "Japan",
-      "quarterfinal_opponents": [
-        {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 58.2
-        },
-        {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 41.8
-        }
-      ],
-      "semifinal_opponents": [
-        {
-          "opponent_code": "DE",
-          "opponent_team": "Germany",
-          "probability": 41.5
-        },
-        {
-          "opponent_code": "CA",
-          "opponent_team": "Canada",
-          "probability": 30.0
-        },
-        {
-          "opponent_code": "PY",
-          "opponent_team": "Paraguay",
-          "probability": 24.6
-        },
-        {
-          "opponent_code": "ZA",
-          "opponent_team": "South Africa",
-          "probability": 3.9
-        }
-      ],
-      "final_opponents": [
-        {
-          "opponent_code": "ES",
-          "opponent_team": "Spain",
-          "probability": 29.3
-        },
-        {
-          "opponent_code": "PT",
-          "opponent_team": "Portugal",
-          "probability": 24.0
-        },
-        {
-          "opponent_code": "BE",
-          "opponent_team": "Belgium",
-          "probability": 15.3
-        },
-        {
-          "opponent_code": "HR",
-          "opponent_team": "Croatia",
-          "probability": 10.7
-        },
-        {
-          "opponent_code": "SN",
-          "opponent_team": "Senegal",
-          "probability": 8.0
-        },
-        {
-          "opponent_code": "US",
-          "opponent_team": "United States",
-          "probability": 7.3
-        },
-        {
-          "opponent_code": "AT",
-          "opponent_team": "Austria",
-          "probability": 4.7
-        },
-        {
-          "opponent_code": "BA",
-          "opponent_team": "Bosnia and Herzegovina",
-          "probability": 0.7
-        }
-      ]
-    },
-    {
-      "team_code": "MX",
-      "team": "Mexico",
       "quarterfinal_opponents": [
         {
           "opponent_code": "EN",
@@ -3266,64 +2741,574 @@
         {
           "opponent_code": "FR",
           "opponent_team": "France",
-          "probability": 46.5
+          "probability": 39.3
         },
         {
           "opponent_code": "NO",
           "opponent_team": "Norway",
-          "probability": 31.8
+          "probability": 39.3
         },
         {
           "opponent_code": "CI",
           "opponent_team": "C\u00f4te d'Ivoire",
-          "probability": 11.1
+          "probability": 11.4
         },
         {
           "opponent_code": "SE",
           "opponent_team": "Sweden",
-          "probability": 10.6
+          "probability": 10.0
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "AR",
-          "opponent_team": "Argentina",
-          "probability": 33.3
+          "opponent_code": "DE",
+          "opponent_team": "Germany",
+          "probability": 29.1
         },
+        {
+          "opponent_code": "BR",
+          "opponent_team": "Brazil",
+          "probability": 22.1
+        },
+        {
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
+          "probability": 18.6
+        },
+        {
+          "opponent_code": "JP",
+          "opponent_team": "Japan",
+          "probability": 9.3
+        },
+        {
+          "opponent_code": "MA",
+          "opponent_team": "Morocco",
+          "probability": 8.1
+        },
+        {
+          "opponent_code": "CA",
+          "opponent_team": "Canada",
+          "probability": 8.1
+        },
+        {
+          "opponent_code": "PY",
+          "opponent_team": "Paraguay",
+          "probability": 4.7
+        }
+      ]
+    },
+    {
+      "team_code": "EG",
+      "team": "Egypt",
+      "quarterfinal_opponents": [
         {
           "opponent_code": "CO",
           "opponent_team": "Colombia",
-          "probability": 26.7
-        },
-        {
-          "opponent_code": "CH",
-          "opponent_team": "Switzerland",
-          "probability": 13.3
-        },
-        {
-          "opponent_code": "AU",
-          "opponent_team": "Australia",
-          "probability": 7.8
-        },
-        {
-          "opponent_code": "DZ",
-          "opponent_team": "Algeria",
-          "probability": 7.8
-        },
-        {
-          "opponent_code": "EG",
-          "opponent_team": "Egypt",
-          "probability": 6.7
+          "probability": 50.8
         },
         {
           "opponent_code": "GH",
           "opponent_team": "Ghana",
-          "probability": 2.2
+          "probability": 49.2
+        }
+      ],
+      "semifinal_opponents": [
+        {
+          "opponent_code": "AR",
+          "opponent_team": "Argentina",
+          "probability": 52.9
+        },
+        {
+          "opponent_code": "CH",
+          "opponent_team": "Switzerland",
+          "probability": 29.4
+        },
+        {
+          "opponent_code": "DZ",
+          "opponent_team": "Algeria",
+          "probability": 11.8
         },
         {
           "opponent_code": "CPV",
           "opponent_team": "Cape Verde",
+          "probability": 5.9
+        }
+      ],
+      "final_opponents": [
+        {
+          "opponent_code": "ES",
+          "opponent_team": "Spain",
+          "probability": 43.8
+        },
+        {
+          "opponent_code": "SN",
+          "opponent_team": "Senegal",
+          "probability": 18.8
+        },
+        {
+          "opponent_code": "US",
+          "opponent_team": "United States",
+          "probability": 12.5
+        },
+        {
+          "opponent_code": "PT",
+          "opponent_team": "Portugal",
+          "probability": 12.5
+        },
+        {
+          "opponent_code": "HR",
+          "opponent_team": "Croatia",
+          "probability": 6.2
+        },
+        {
+          "opponent_code": "BE",
+          "opponent_team": "Belgium",
+          "probability": 6.2
+        }
+      ]
+    },
+    {
+      "team_code": "EN",
+      "team": "England",
+      "quarterfinal_opponents": [
+        {
+          "opponent_code": "MX",
+          "opponent_team": "Mexico",
+          "probability": 60.3
+        },
+        {
+          "opponent_code": "EC",
+          "opponent_team": "Ecuador",
+          "probability": 39.7
+        }
+      ],
+      "semifinal_opponents": [
+        {
+          "opponent_code": "FR",
+          "opponent_team": "France",
+          "probability": 57.8
+        },
+        {
+          "opponent_code": "NO",
+          "opponent_team": "Norway",
+          "probability": 27.8
+        },
+        {
+          "opponent_code": "CI",
+          "opponent_team": "C\u00f4te d'Ivoire",
+          "probability": 8.6
+        },
+        {
+          "opponent_code": "SE",
+          "opponent_team": "Sweden",
+          "probability": 5.8
+        }
+      ],
+      "final_opponents": [
+        {
+          "opponent_code": "BR",
+          "opponent_team": "Brazil",
+          "probability": 26.4
+        },
+        {
+          "opponent_code": "DE",
+          "opponent_team": "Germany",
+          "probability": 24.7
+        },
+        {
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
+          "probability": 21.2
+        },
+        {
+          "opponent_code": "MA",
+          "opponent_team": "Morocco",
+          "probability": 8.4
+        },
+        {
+          "opponent_code": "JP",
+          "opponent_team": "Japan",
+          "probability": 8.0
+        },
+        {
+          "opponent_code": "PY",
+          "opponent_team": "Paraguay",
+          "probability": 6.4
+        },
+        {
+          "opponent_code": "CA",
+          "opponent_team": "Canada",
+          "probability": 4.6
+        },
+        {
+          "opponent_code": "ZA",
+          "opponent_team": "South Africa",
+          "probability": 0.3
+        }
+      ]
+    },
+    {
+      "team_code": "FR",
+      "team": "France",
+      "quarterfinal_opponents": [
+        {
+          "opponent_code": "NO",
+          "opponent_team": "Norway",
+          "probability": 77.2
+        },
+        {
+          "opponent_code": "CI",
+          "opponent_team": "C\u00f4te d'Ivoire",
+          "probability": 22.8
+        }
+      ],
+      "semifinal_opponents": [
+        {
+          "opponent_code": "EN",
+          "opponent_team": "England",
+          "probability": 56.8
+        },
+        {
+          "opponent_code": "MX",
+          "opponent_team": "Mexico",
+          "probability": 24.9
+        },
+        {
+          "opponent_code": "EC",
+          "opponent_team": "Ecuador",
+          "probability": 15.4
+        },
+        {
+          "opponent_code": "CD",
+          "opponent_team": "DR Congo",
+          "probability": 2.9
+        }
+      ],
+      "final_opponents": [
+        {
+          "opponent_code": "BR",
+          "opponent_team": "Brazil",
+          "probability": 26.7
+        },
+        {
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
+          "probability": 24.1
+        },
+        {
+          "opponent_code": "DE",
+          "opponent_team": "Germany",
+          "probability": 23.4
+        },
+        {
+          "opponent_code": "JP",
+          "opponent_team": "Japan",
+          "probability": 8.6
+        },
+        {
+          "opponent_code": "MA",
+          "opponent_team": "Morocco",
+          "probability": 6.8
+        },
+        {
+          "opponent_code": "PY",
+          "opponent_team": "Paraguay",
+          "probability": 5.2
+        },
+        {
+          "opponent_code": "CA",
+          "opponent_team": "Canada",
+          "probability": 4.7
+        },
+        {
+          "opponent_code": "ZA",
+          "opponent_team": "South Africa",
+          "probability": 0.5
+        }
+      ]
+    },
+    {
+      "team_code": "DE",
+      "team": "Germany",
+      "quarterfinal_opponents": [
+        {
+          "opponent_code": "CA",
+          "opponent_team": "Canada",
+          "probability": 75.0
+        },
+        {
+          "opponent_code": "ZA",
+          "opponent_team": "South Africa",
+          "probability": 25.0
+        }
+      ],
+      "semifinal_opponents": [
+        {
+          "opponent_code": "BR",
+          "opponent_team": "Brazil",
+          "probability": 34.2
+        },
+        {
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
+          "probability": 32.9
+        },
+        {
+          "opponent_code": "JP",
+          "opponent_team": "Japan",
+          "probability": 17.3
+        },
+        {
+          "opponent_code": "MA",
+          "opponent_team": "Morocco",
+          "probability": 15.5
+        }
+      ],
+      "final_opponents": [
+        {
+          "opponent_code": "FR",
+          "opponent_team": "France",
+          "probability": 34.0
+        },
+        {
+          "opponent_code": "EN",
+          "opponent_team": "England",
+          "probability": 28.1
+        },
+        {
+          "opponent_code": "MX",
+          "opponent_team": "Mexico",
+          "probability": 13.4
+        },
+        {
+          "opponent_code": "NO",
+          "opponent_team": "Norway",
+          "probability": 12.3
+        },
+        {
+          "opponent_code": "EC",
+          "opponent_team": "Ecuador",
+          "probability": 7.8
+        },
+        {
+          "opponent_code": "SE",
+          "opponent_team": "Sweden",
           "probability": 2.2
+        },
+        {
+          "opponent_code": "CD",
+          "opponent_team": "DR Congo",
+          "probability": 1.7
+        },
+        {
+          "opponent_code": "CI",
+          "opponent_team": "C\u00f4te d'Ivoire",
+          "probability": 0.6
+        }
+      ]
+    },
+    {
+      "team_code": "GH",
+      "team": "Ghana",
+      "quarterfinal_opponents": [
+        {
+          "opponent_code": "AU",
+          "opponent_team": "Australia",
+          "probability": 53.8
+        },
+        {
+          "opponent_code": "EG",
+          "opponent_team": "Egypt",
+          "probability": 46.2
+        }
+      ],
+      "semifinal_opponents": [
+        {
+          "opponent_code": "AR",
+          "opponent_team": "Argentina",
+          "probability": 61.1
+        },
+        {
+          "opponent_code": "CH",
+          "opponent_team": "Switzerland",
+          "probability": 16.7
+        },
+        {
+          "opponent_code": "DZ",
+          "opponent_team": "Algeria",
+          "probability": 11.1
+        },
+        {
+          "opponent_code": "CPV",
+          "opponent_team": "Cape Verde",
+          "probability": 11.1
+        }
+      ],
+      "final_opponents": [
+        {
+          "opponent_code": "ES",
+          "opponent_team": "Spain",
+          "probability": 100.0
+        }
+      ]
+    },
+    {
+      "team_code": "JP",
+      "team": "Japan",
+      "quarterfinal_opponents": [
+        {
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
+          "probability": 59.5
+        },
+        {
+          "opponent_code": "MA",
+          "opponent_team": "Morocco",
+          "probability": 40.5
+        }
+      ],
+      "semifinal_opponents": [
+        {
+          "opponent_code": "DE",
+          "opponent_team": "Germany",
+          "probability": 40.2
+        },
+        {
+          "opponent_code": "CA",
+          "opponent_team": "Canada",
+          "probability": 30.9
+        },
+        {
+          "opponent_code": "PY",
+          "opponent_team": "Paraguay",
+          "probability": 23.8
+        },
+        {
+          "opponent_code": "ZA",
+          "opponent_team": "South Africa",
+          "probability": 5.1
+        }
+      ],
+      "final_opponents": [
+        {
+          "opponent_code": "FR",
+          "opponent_team": "France",
+          "probability": 31.5
+        },
+        {
+          "opponent_code": "EN",
+          "opponent_team": "England",
+          "probability": 25.9
+        },
+        {
+          "opponent_code": "NO",
+          "opponent_team": "Norway",
+          "probability": 18.9
+        },
+        {
+          "opponent_code": "MX",
+          "opponent_team": "Mexico",
+          "probability": 11.2
+        },
+        {
+          "opponent_code": "EC",
+          "opponent_team": "Ecuador",
+          "probability": 7.7
+        },
+        {
+          "opponent_code": "SE",
+          "opponent_team": "Sweden",
+          "probability": 2.1
+        },
+        {
+          "opponent_code": "CD",
+          "opponent_team": "DR Congo",
+          "probability": 1.4
+        },
+        {
+          "opponent_code": "CI",
+          "opponent_team": "C\u00f4te d'Ivoire",
+          "probability": 1.4
+        }
+      ]
+    },
+    {
+      "team_code": "MX",
+      "team": "Mexico",
+      "quarterfinal_opponents": [
+        {
+          "opponent_code": "EN",
+          "opponent_team": "England",
+          "probability": 72.6
+        },
+        {
+          "opponent_code": "CD",
+          "opponent_team": "DR Congo",
+          "probability": 27.4
+        }
+      ],
+      "semifinal_opponents": [
+        {
+          "opponent_code": "FR",
+          "opponent_team": "France",
+          "probability": 43.0
+        },
+        {
+          "opponent_code": "NO",
+          "opponent_team": "Norway",
+          "probability": 36.7
+        },
+        {
+          "opponent_code": "CI",
+          "opponent_team": "C\u00f4te d'Ivoire",
+          "probability": 10.7
+        },
+        {
+          "opponent_code": "SE",
+          "opponent_team": "Sweden",
+          "probability": 9.6
+        }
+      ],
+      "final_opponents": [
+        {
+          "opponent_code": "BR",
+          "opponent_team": "Brazil",
+          "probability": 27.3
+        },
+        {
+          "opponent_code": "DE",
+          "opponent_team": "Germany",
+          "probability": 21.7
+        },
+        {
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
+          "probability": 14.3
+        },
+        {
+          "opponent_code": "PY",
+          "opponent_team": "Paraguay",
+          "probability": 9.9
+        },
+        {
+          "opponent_code": "JP",
+          "opponent_team": "Japan",
+          "probability": 9.9
+        },
+        {
+          "opponent_code": "CA",
+          "opponent_team": "Canada",
+          "probability": 8.7
+        },
+        {
+          "opponent_code": "MA",
+          "opponent_team": "Morocco",
+          "probability": 6.8
+        },
+        {
+          "opponent_code": "ZA",
+          "opponent_team": "South Africa",
+          "probability": 1.2
         }
       ]
     },
@@ -3334,75 +3319,70 @@
         {
           "opponent_code": "BR",
           "opponent_team": "Brazil",
-          "probability": 57.7
+          "probability": 56.1
         },
         {
           "opponent_code": "JP",
           "opponent_team": "Japan",
-          "probability": 42.3
+          "probability": 43.9
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "DE",
           "opponent_team": "Germany",
-          "probability": 43.0
+          "probability": 38.6
         },
         {
           "opponent_code": "CA",
           "opponent_team": "Canada",
-          "probability": 29.6
+          "probability": 28.6
         },
         {
           "opponent_code": "PY",
           "opponent_team": "Paraguay",
-          "probability": 23.4
+          "probability": 27.5
         },
         {
           "opponent_code": "ZA",
           "opponent_team": "South Africa",
-          "probability": 4.0
+          "probability": 5.3
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "ES",
-          "opponent_team": "Spain",
-          "probability": 35.8
+          "opponent_code": "EN",
+          "opponent_team": "England",
+          "probability": 34.1
         },
         {
-          "opponent_code": "BE",
-          "opponent_team": "Belgium",
-          "probability": 19.8
+          "opponent_code": "FR",
+          "opponent_team": "France",
+          "probability": 23.2
         },
         {
-          "opponent_code": "US",
-          "opponent_team": "United States",
-          "probability": 13.6
+          "opponent_code": "MX",
+          "opponent_team": "Mexico",
+          "probability": 15.9
         },
         {
-          "opponent_code": "SN",
-          "opponent_team": "Senegal",
-          "probability": 12.3
+          "opponent_code": "NO",
+          "opponent_team": "Norway",
+          "probability": 12.2
         },
         {
-          "opponent_code": "PT",
-          "opponent_team": "Portugal",
-          "probability": 9.9
+          "opponent_code": "EC",
+          "opponent_team": "Ecuador",
+          "probability": 9.8
         },
         {
-          "opponent_code": "HR",
-          "opponent_team": "Croatia",
-          "probability": 4.9
+          "opponent_code": "CI",
+          "opponent_team": "C\u00f4te d'Ivoire",
+          "probability": 3.7
         },
         {
-          "opponent_code": "AT",
-          "opponent_team": "Austria",
-          "probability": 2.5
-        },
-        {
-          "opponent_code": "BA",
-          "opponent_team": "Bosnia and Herzegovina",
+          "opponent_code": "CD",
+          "opponent_team": "DR Congo",
           "probability": 1.2
         }
       ]
@@ -3414,76 +3394,76 @@
         {
           "opponent_code": "BR",
           "opponent_team": "Brazil",
-          "probability": 58.6
+          "probability": 60.9
         },
         {
           "opponent_code": "JP",
           "opponent_team": "Japan",
-          "probability": 41.4
+          "probability": 39.1
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "DE",
           "opponent_team": "Germany",
-          "probability": 46.4
+          "probability": 47.4
         },
         {
           "opponent_code": "CA",
           "opponent_team": "Canada",
-          "probability": 25.8
+          "probability": 25.4
         },
         {
           "opponent_code": "PY",
           "opponent_team": "Paraguay",
-          "probability": 23.9
+          "probability": 23.6
         },
         {
           "opponent_code": "ZA",
           "opponent_team": "South Africa",
-          "probability": 3.9
+          "probability": 3.6
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "ES",
-          "opponent_team": "Spain",
-          "probability": 39.2
+          "opponent_code": "FR",
+          "opponent_team": "France",
+          "probability": 38.3
         },
         {
-          "opponent_code": "PT",
-          "opponent_team": "Portugal",
-          "probability": 17.1
+          "opponent_code": "EN",
+          "opponent_team": "England",
+          "probability": 31.7
         },
         {
-          "opponent_code": "BE",
-          "opponent_team": "Belgium",
-          "probability": 15.6
+          "opponent_code": "MX",
+          "opponent_team": "Mexico",
+          "probability": 10.6
         },
         {
-          "opponent_code": "SN",
-          "opponent_team": "Senegal",
-          "probability": 10.3
+          "opponent_code": "NO",
+          "opponent_team": "Norway",
+          "probability": 9.7
         },
         {
-          "opponent_code": "US",
-          "opponent_team": "United States",
-          "probability": 7.4
+          "opponent_code": "EC",
+          "opponent_team": "Ecuador",
+          "probability": 5.7
         },
         {
-          "opponent_code": "HR",
-          "opponent_team": "Croatia",
-          "probability": 5.8
+          "opponent_code": "CD",
+          "opponent_team": "DR Congo",
+          "probability": 1.9
         },
         {
-          "opponent_code": "AT",
-          "opponent_team": "Austria",
-          "probability": 3.4
+          "opponent_code": "CI",
+          "opponent_team": "C\u00f4te d'Ivoire",
+          "probability": 1.1
         },
         {
-          "opponent_code": "BA",
-          "opponent_team": "Bosnia and Herzegovina",
-          "probability": 1.2
+          "opponent_code": "SE",
+          "opponent_team": "Sweden",
+          "probability": 0.9
         }
       ]
     },
@@ -3494,76 +3474,76 @@
         {
           "opponent_code": "FR",
           "opponent_team": "France",
-          "probability": 60.3
+          "probability": 61.2
         },
         {
           "opponent_code": "SE",
           "opponent_team": "Sweden",
-          "probability": 39.7
+          "probability": 38.8
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "EN",
           "opponent_team": "England",
-          "probability": 51.2
+          "probability": 49.0
         },
         {
           "opponent_code": "MX",
           "opponent_team": "Mexico",
-          "probability": 27.2
+          "probability": 26.3
         },
         {
           "opponent_code": "EC",
           "opponent_team": "Ecuador",
-          "probability": 17.7
+          "probability": 19.2
         },
         {
           "opponent_code": "CD",
           "opponent_team": "DR Congo",
-          "probability": 4.0
+          "probability": 5.5
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "CO",
-          "opponent_team": "Colombia",
-          "probability": 36.2
+          "opponent_code": "DE",
+          "opponent_team": "Germany",
+          "probability": 25.0
         },
         {
-          "opponent_code": "AR",
-          "opponent_team": "Argentina",
-          "probability": 36.2
+          "opponent_code": "BR",
+          "opponent_team": "Brazil",
+          "probability": 22.9
         },
         {
-          "opponent_code": "CH",
-          "opponent_team": "Switzerland",
-          "probability": 13.1
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
+          "probability": 16.1
         },
         {
-          "opponent_code": "AU",
-          "opponent_team": "Australia",
-          "probability": 5.4
+          "opponent_code": "JP",
+          "opponent_team": "Japan",
+          "probability": 14.6
         },
         {
-          "opponent_code": "CPV",
-          "opponent_team": "Cape Verde",
-          "probability": 4.6
+          "opponent_code": "MA",
+          "opponent_team": "Morocco",
+          "probability": 7.3
         },
         {
-          "opponent_code": "DZ",
-          "opponent_team": "Algeria",
-          "probability": 2.3
+          "opponent_code": "PY",
+          "opponent_team": "Paraguay",
+          "probability": 6.8
         },
         {
-          "opponent_code": "GH",
-          "opponent_team": "Ghana",
-          "probability": 1.5
+          "opponent_code": "CA",
+          "opponent_team": "Canada",
+          "probability": 5.2
         },
         {
-          "opponent_code": "EG",
-          "opponent_team": "Egypt",
-          "probability": 0.8
+          "opponent_code": "ZA",
+          "opponent_team": "South Africa",
+          "probability": 2.1
         }
       ]
     },
@@ -3574,71 +3554,71 @@
         {
           "opponent_code": "CA",
           "opponent_team": "Canada",
-          "probability": 71.0
+          "probability": 69.6
         },
         {
           "opponent_code": "ZA",
           "opponent_team": "South Africa",
-          "probability": 29.0
+          "probability": 30.4
         }
       ],
       "semifinal_opponents": [
         {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 32.3
-        },
-        {
           "opponent_code": "BR",
           "opponent_team": "Brazil",
-          "probability": 30.5
+          "probability": 36.6
+        },
+        {
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
+          "probability": 31.3
         },
         {
           "opponent_code": "JP",
           "opponent_team": "Japan",
-          "probability": 21.3
+          "probability": 16.2
         },
         {
           "opponent_code": "MA",
           "opponent_team": "Morocco",
-          "probability": 15.9
+          "probability": 15.8
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "ES",
-          "opponent_team": "Spain",
-          "probability": 35.6
+          "opponent_code": "EN",
+          "opponent_team": "England",
+          "probability": 37.3
         },
         {
-          "opponent_code": "PT",
-          "opponent_team": "Portugal",
-          "probability": 15.1
+          "opponent_code": "FR",
+          "opponent_team": "France",
+          "probability": 21.6
         },
         {
-          "opponent_code": "US",
-          "opponent_team": "United States",
-          "probability": 12.3
+          "opponent_code": "NO",
+          "opponent_team": "Norway",
+          "probability": 19.6
         },
         {
-          "opponent_code": "BE",
-          "opponent_team": "Belgium",
-          "probability": 12.3
+          "opponent_code": "MX",
+          "opponent_team": "Mexico",
+          "probability": 7.8
         },
         {
-          "opponent_code": "HR",
-          "opponent_team": "Croatia",
-          "probability": 11.0
+          "opponent_code": "CD",
+          "opponent_team": "DR Congo",
+          "probability": 5.9
         },
         {
-          "opponent_code": "SN",
-          "opponent_team": "Senegal",
-          "probability": 9.6
+          "opponent_code": "SE",
+          "opponent_team": "Sweden",
+          "probability": 3.9
         },
         {
-          "opponent_code": "AT",
-          "opponent_team": "Austria",
-          "probability": 4.1
+          "opponent_code": "EC",
+          "opponent_team": "Ecuador",
+          "probability": 3.9
         }
       ]
     },
@@ -3649,76 +3629,76 @@
         {
           "opponent_code": "ES",
           "opponent_team": "Spain",
-          "probability": 70.5
+          "probability": 71.8
         },
         {
           "opponent_code": "AT",
           "opponent_team": "Austria",
-          "probability": 29.5
+          "probability": 28.2
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "BE",
           "opponent_team": "Belgium",
-          "probability": 34.8
+          "probability": 36.0
         },
         {
           "opponent_code": "US",
           "opponent_team": "United States",
-          "probability": 33.8
+          "probability": 31.7
         },
         {
           "opponent_code": "SN",
           "opponent_team": "Senegal",
-          "probability": 27.9
+          "probability": 29.0
         },
         {
           "opponent_code": "BA",
           "opponent_team": "Bosnia and Herzegovina",
-          "probability": 3.5
+          "probability": 3.3
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "DE",
-          "opponent_team": "Germany",
-          "probability": 25.8
+          "opponent_code": "AR",
+          "opponent_team": "Argentina",
+          "probability": 38.0
         },
         {
-          "opponent_code": "BR",
-          "opponent_team": "Brazil",
-          "probability": 22.5
+          "opponent_code": "CO",
+          "opponent_team": "Colombia",
+          "probability": 35.5
         },
         {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 20.3
+          "opponent_code": "CH",
+          "opponent_team": "Switzerland",
+          "probability": 9.0
         },
         {
-          "opponent_code": "JP",
-          "opponent_team": "Japan",
-          "probability": 10.0
+          "opponent_code": "AU",
+          "opponent_team": "Australia",
+          "probability": 7.7
         },
         {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 8.3
+          "opponent_code": "EG",
+          "opponent_team": "Egypt",
+          "probability": 4.4
         },
         {
-          "opponent_code": "CA",
-          "opponent_team": "Canada",
-          "probability": 6.4
+          "opponent_code": "DZ",
+          "opponent_team": "Algeria",
+          "probability": 2.5
         },
         {
-          "opponent_code": "PY",
-          "opponent_team": "Paraguay",
-          "probability": 5.9
+          "opponent_code": "GH",
+          "opponent_team": "Ghana",
+          "probability": 1.9
         },
         {
-          "opponent_code": "ZA",
-          "opponent_team": "South Africa",
-          "probability": 0.8
+          "opponent_code": "CPV",
+          "opponent_team": "Cape Verde",
+          "probability": 1.1
         }
       ]
     },
@@ -3729,12 +3709,12 @@
         {
           "opponent_code": "US",
           "opponent_team": "United States",
-          "probability": 78.2
+          "probability": 78.1
         },
         {
           "opponent_code": "BA",
           "opponent_team": "Bosnia and Herzegovina",
-          "probability": 21.8
+          "probability": 21.9
         }
       ],
       "semifinal_opponents": [
@@ -3746,59 +3726,59 @@
         {
           "opponent_code": "PT",
           "opponent_team": "Portugal",
-          "probability": 29.5
+          "probability": 29.8
         },
         {
           "opponent_code": "HR",
           "opponent_team": "Croatia",
-          "probability": 12.8
+          "probability": 12.9
         },
         {
           "opponent_code": "AT",
           "opponent_team": "Austria",
-          "probability": 9.2
+          "probability": 8.7
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 22.0
+          "opponent_code": "CO",
+          "opponent_team": "Colombia",
+          "probability": 40.7
         },
         {
-          "opponent_code": "DE",
-          "opponent_team": "Germany",
-          "probability": 18.0
+          "opponent_code": "AR",
+          "opponent_team": "Argentina",
+          "probability": 27.1
         },
         {
-          "opponent_code": "BR",
-          "opponent_team": "Brazil",
-          "probability": 15.0
+          "opponent_code": "CH",
+          "opponent_team": "Switzerland",
+          "probability": 15.3
         },
         {
-          "opponent_code": "JP",
-          "opponent_team": "Japan",
-          "probability": 15.0
+          "opponent_code": "AU",
+          "opponent_team": "Australia",
+          "probability": 6.8
         },
         {
-          "opponent_code": "PY",
-          "opponent_team": "Paraguay",
-          "probability": 11.0
+          "opponent_code": "CPV",
+          "opponent_team": "Cape Verde",
+          "probability": 3.4
         },
         {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 9.0
+          "opponent_code": "EG",
+          "opponent_team": "Egypt",
+          "probability": 3.4
         },
         {
-          "opponent_code": "CA",
-          "opponent_team": "Canada",
-          "probability": 8.0
+          "opponent_code": "DZ",
+          "opponent_team": "Algeria",
+          "probability": 1.7
         },
         {
-          "opponent_code": "ZA",
-          "opponent_team": "South Africa",
-          "probability": 2.0
+          "opponent_code": "GH",
+          "opponent_team": "Ghana",
+          "probability": 1.7
         }
       ]
     },
@@ -3809,46 +3789,46 @@
         {
           "opponent_code": "DE",
           "opponent_team": "Germany",
-          "probability": 64.6
+          "probability": 63.6
         },
         {
           "opponent_code": "PY",
           "opponent_team": "Paraguay",
-          "probability": 35.4
+          "probability": 36.4
         }
       ],
       "semifinal_opponents": [
         {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 55.2
-        },
-        {
           "opponent_code": "BR",
           "opponent_team": "Brazil",
-          "probability": 31.0
+          "probability": 41.7
         },
         {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 10.3
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
+          "probability": 25.0
         },
         {
           "opponent_code": "JP",
           "opponent_team": "Japan",
-          "probability": 3.4
+          "probability": 20.8
+        },
+        {
+          "opponent_code": "MA",
+          "opponent_team": "Morocco",
+          "probability": 12.5
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "ES",
-          "opponent_team": "Spain",
-          "probability": 83.3
+          "opponent_code": "FR",
+          "opponent_team": "France",
+          "probability": 66.7
         },
         {
-          "opponent_code": "HR",
-          "opponent_team": "Croatia",
-          "probability": 16.7
+          "opponent_code": "EN",
+          "opponent_team": "England",
+          "probability": 33.3
         }
       ]
     },
@@ -3859,76 +3839,76 @@
         {
           "opponent_code": "PT",
           "opponent_team": "Portugal",
-          "probability": 60.2
+          "probability": 62.2
         },
         {
           "opponent_code": "HR",
           "opponent_team": "Croatia",
-          "probability": 39.8
+          "probability": 37.8
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "BE",
           "opponent_team": "Belgium",
-          "probability": 39.7
+          "probability": 41.1
         },
         {
           "opponent_code": "US",
           "opponent_team": "United States",
-          "probability": 30.0
+          "probability": 29.1
         },
         {
           "opponent_code": "SN",
           "opponent_team": "Senegal",
-          "probability": 27.6
+          "probability": 27.8
         },
         {
           "opponent_code": "BA",
           "opponent_team": "Bosnia and Herzegovina",
-          "probability": 2.6
+          "probability": 2.0
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "BR",
-          "opponent_team": "Brazil",
-          "probability": 27.9
+          "opponent_code": "AR",
+          "opponent_team": "Argentina",
+          "probability": 46.9
         },
         {
-          "opponent_code": "DE",
-          "opponent_team": "Germany",
-          "probability": 22.9
+          "opponent_code": "CO",
+          "opponent_team": "Colombia",
+          "probability": 34.1
         },
         {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 22.8
+          "opponent_code": "CH",
+          "opponent_team": "Switzerland",
+          "probability": 10.3
         },
         {
-          "opponent_code": "JP",
-          "opponent_team": "Japan",
-          "probability": 9.1
-        },
-        {
-          "opponent_code": "PY",
-          "opponent_team": "Paraguay",
-          "probability": 6.6
-        },
-        {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 6.5
-        },
-        {
-          "opponent_code": "CA",
-          "opponent_team": "Canada",
+          "opponent_code": "AU",
+          "opponent_team": "Australia",
           "probability": 3.7
         },
         {
-          "opponent_code": "ZA",
-          "opponent_team": "South Africa",
-          "probability": 0.5
+          "opponent_code": "DZ",
+          "opponent_team": "Algeria",
+          "probability": 2.0
+        },
+        {
+          "opponent_code": "EG",
+          "opponent_team": "Egypt",
+          "probability": 1.8
+        },
+        {
+          "opponent_code": "CPV",
+          "opponent_team": "Cape Verde",
+          "probability": 0.9
+        },
+        {
+          "opponent_code": "GH",
+          "opponent_team": "Ghana",
+          "probability": 0.3
         }
       ]
     },
@@ -3939,19 +3919,19 @@
         {
           "opponent_code": "NO",
           "opponent_team": "Norway",
-          "probability": 67.3
+          "probability": 54.8
         },
         {
           "opponent_code": "CI",
           "opponent_team": "C\u00f4te d'Ivoire",
-          "probability": 32.7
+          "probability": 45.2
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "EN",
           "opponent_team": "England",
-          "probability": 41.0
+          "probability": 52.8
         },
         {
           "opponent_code": "MX",
@@ -3961,39 +3941,39 @@
         {
           "opponent_code": "EC",
           "opponent_team": "Ecuador",
-          "probability": 17.9
-        },
-        {
-          "opponent_code": "CD",
-          "opponent_team": "DR Congo",
-          "probability": 7.7
+          "probability": 13.9
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "AR",
-          "opponent_team": "Argentina",
-          "probability": 28.6
+          "opponent_code": "CA",
+          "opponent_team": "Canada",
+          "probability": 20.0
         },
         {
-          "opponent_code": "CO",
-          "opponent_team": "Colombia",
-          "probability": 28.6
+          "opponent_code": "NL",
+          "opponent_team": "Netherlands",
+          "probability": 20.0
         },
         {
-          "opponent_code": "EG",
-          "opponent_team": "Egypt",
-          "probability": 14.3
+          "opponent_code": "DE",
+          "opponent_team": "Germany",
+          "probability": 20.0
         },
         {
-          "opponent_code": "CH",
-          "opponent_team": "Switzerland",
-          "probability": 14.3
+          "opponent_code": "BR",
+          "opponent_team": "Brazil",
+          "probability": 20.0
         },
         {
-          "opponent_code": "AU",
-          "opponent_team": "Australia",
-          "probability": 14.3
+          "opponent_code": "MA",
+          "opponent_team": "Morocco",
+          "probability": 10.0
+        },
+        {
+          "opponent_code": "PY",
+          "opponent_team": "Paraguay",
+          "probability": 10.0
         }
       ]
     },
@@ -4004,71 +3984,76 @@
         {
           "opponent_code": "AR",
           "opponent_team": "Argentina",
-          "probability": 55.2
+          "probability": 58.5
         },
         {
           "opponent_code": "CPV",
           "opponent_team": "Cape Verde",
-          "probability": 44.8
+          "probability": 41.5
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "CO",
           "opponent_team": "Colombia",
-          "probability": 53.2
+          "probability": 54.5
         },
         {
           "opponent_code": "AU",
           "opponent_team": "Australia",
-          "probability": 27.7
+          "probability": 25.1
         },
         {
           "opponent_code": "EG",
           "opponent_team": "Egypt",
-          "probability": 15.3
+          "probability": 15.7
         },
         {
           "opponent_code": "GH",
           "opponent_team": "Ghana",
-          "probability": 3.8
+          "probability": 4.8
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "EN",
-          "opponent_team": "England",
-          "probability": 28.9
+          "opponent_code": "ES",
+          "opponent_team": "Spain",
+          "probability": 36.6
         },
         {
-          "opponent_code": "FR",
-          "opponent_team": "France",
-          "probability": 26.4
+          "opponent_code": "PT",
+          "opponent_team": "Portugal",
+          "probability": 17.6
         },
         {
-          "opponent_code": "NO",
-          "opponent_team": "Norway",
-          "probability": 18.2
+          "opponent_code": "US",
+          "opponent_team": "United States",
+          "probability": 17.0
         },
         {
-          "opponent_code": "MX",
-          "opponent_team": "Mexico",
-          "probability": 12.4
+          "opponent_code": "BE",
+          "opponent_team": "Belgium",
+          "probability": 14.4
         },
         {
-          "opponent_code": "EC",
-          "opponent_team": "Ecuador",
-          "probability": 11.6
+          "opponent_code": "SN",
+          "opponent_team": "Senegal",
+          "probability": 6.5
         },
         {
-          "opponent_code": "CD",
-          "opponent_team": "DR Congo",
-          "probability": 1.7
+          "opponent_code": "AT",
+          "opponent_team": "Austria",
+          "probability": 3.3
         },
         {
-          "opponent_code": "SE",
-          "opponent_team": "Sweden",
-          "probability": 0.8
+          "opponent_code": "HR",
+          "opponent_team": "Croatia",
+          "probability": 3.3
+        },
+        {
+          "opponent_code": "BA",
+          "opponent_team": "Bosnia and Herzegovina",
+          "probability": 1.3
         }
       ]
     },
@@ -4079,1076 +4064,75 @@
         {
           "opponent_code": "BE",
           "opponent_team": "Belgium",
-          "probability": 52.4
+          "probability": 52.5
         },
         {
           "opponent_code": "SN",
           "opponent_team": "Senegal",
-          "probability": 47.6
+          "probability": 47.5
         }
       ],
       "semifinal_opponents": [
         {
           "opponent_code": "ES",
           "opponent_team": "Spain",
-          "probability": 55.2
+          "probability": 54.5
         },
         {
           "opponent_code": "PT",
           "opponent_team": "Portugal",
-          "probability": 25.1
+          "probability": 19.1
         },
         {
           "opponent_code": "HR",
           "opponent_team": "Croatia",
-          "probability": 10.9
+          "probability": 15.4
         },
         {
           "opponent_code": "AT",
           "opponent_team": "Austria",
-          "probability": 8.8
+          "probability": 11.1
         }
       ],
       "final_opponents": [
         {
-          "opponent_code": "DE",
-          "opponent_team": "Germany",
-          "probability": 33.3
+          "opponent_code": "AR",
+          "opponent_team": "Argentina",
+          "probability": 38.5
         },
         {
-          "opponent_code": "BR",
-          "opponent_team": "Brazil",
-          "probability": 27.8
+          "opponent_code": "CO",
+          "opponent_team": "Colombia",
+          "probability": 30.8
         },
         {
-          "opponent_code": "NL",
-          "opponent_team": "Netherlands",
-          "probability": 13.0
+          "opponent_code": "AU",
+          "opponent_team": "Australia",
+          "probability": 10.8
         },
         {
-          "opponent_code": "MA",
-          "opponent_team": "Morocco",
-          "probability": 9.3
+          "opponent_code": "CH",
+          "opponent_team": "Switzerland",
+          "probability": 9.2
         },
         {
-          "opponent_code": "JP",
-          "opponent_team": "Japan",
-          "probability": 7.4
+          "opponent_code": "EG",
+          "opponent_team": "Egypt",
+          "probability": 4.6
         },
         {
-          "opponent_code": "CA",
-          "opponent_team": "Canada",
-          "probability": 5.6
+          "opponent_code": "DZ",
+          "opponent_team": "Algeria",
+          "probability": 4.6
         },
         {
-          "opponent_code": "PY",
-          "opponent_team": "Paraguay",
-          "probability": 3.7
+          "opponent_code": "CPV",
+          "opponent_team": "Cape Verde",
+          "probability": 1.5
         }
       ]
     }
   ],
-  "bracket_slot_probs": {
-    "73": [
-      {
-        "team_code": "CA",
-        "team": "Canada",
-        "probability": 77.2
-      },
-      {
-        "team_code": "ZA",
-        "team": "South Africa",
-        "probability": 22.9
-      }
-    ],
-    "76": [
-      {
-        "team_code": "BR",
-        "team": "Brazil",
-        "probability": 67.3
-      },
-      {
-        "team_code": "JP",
-        "team": "Japan",
-        "probability": 32.7
-      }
-    ],
-    "74": [
-      {
-        "team_code": "DE",
-        "team": "Germany",
-        "probability": 66.8
-      },
-      {
-        "team_code": "PY",
-        "team": "Paraguay",
-        "probability": 33.2
-      }
-    ],
-    "75": [
-      {
-        "team_code": "NL",
-        "team": "Netherlands",
-        "probability": 68.1
-      },
-      {
-        "team_code": "MA",
-        "team": "Morocco",
-        "probability": 31.9
-      }
-    ],
-    "78": [
-      {
-        "team_code": "NO",
-        "team": "Norway",
-        "probability": 77.9
-      },
-      {
-        "team_code": "CI",
-        "team": "C\u00f4te d'Ivoire",
-        "probability": 22.1
-      }
-    ],
-    "77": [
-      {
-        "team_code": "FR",
-        "team": "France",
-        "probability": 87.2
-      },
-      {
-        "team_code": "SE",
-        "team": "Sweden",
-        "probability": 12.8
-      }
-    ],
-    "79": [
-      {
-        "team_code": "MX",
-        "team": "Mexico",
-        "probability": 61.0
-      },
-      {
-        "team_code": "EC",
-        "team": "Ecuador",
-        "probability": 39.0
-      }
-    ],
-    "80": [
-      {
-        "team_code": "EN",
-        "team": "England",
-        "probability": 87.7
-      },
-      {
-        "team_code": "CD",
-        "team": "DR Congo",
-        "probability": 12.3
-      }
-    ],
-    "82": [
-      {
-        "team_code": "BE",
-        "team": "Belgium",
-        "probability": 57.1
-      },
-      {
-        "team_code": "SN",
-        "team": "Senegal",
-        "probability": 42.9
-      }
-    ],
-    "81": [
-      {
-        "team_code": "US",
-        "team": "United States",
-        "probability": 82.9
-      },
-      {
-        "team_code": "BA",
-        "team": "Bosnia and Herzegovina",
-        "probability": 17.1
-      }
-    ],
-    "84": [
-      {
-        "team_code": "ES",
-        "team": "Spain",
-        "probability": 88.0
-      },
-      {
-        "team_code": "AT",
-        "team": "Austria",
-        "probability": 12.0
-      }
-    ],
-    "83": [
-      {
-        "team_code": "PT",
-        "team": "Portugal",
-        "probability": 63.8
-      },
-      {
-        "team_code": "HR",
-        "team": "Croatia",
-        "probability": 36.2
-      }
-    ],
-    "85": [
-      {
-        "team_code": "CH",
-        "team": "Switzerland",
-        "probability": 70.5
-      },
-      {
-        "team_code": "DZ",
-        "team": "Algeria",
-        "probability": 29.5
-      }
-    ],
-    "88": [
-      {
-        "team_code": "AU",
-        "team": "Australia",
-        "probability": 59.5
-      },
-      {
-        "team_code": "EG",
-        "team": "Egypt",
-        "probability": 40.5
-      }
-    ],
-    "86": [
-      {
-        "team_code": "AR",
-        "team": "Argentina",
-        "probability": 87.2
-      },
-      {
-        "team_code": "CPV",
-        "team": "Cape Verde",
-        "probability": 12.8
-      }
-    ],
-    "87": [
-      {
-        "team_code": "CO",
-        "team": "Colombia",
-        "probability": 87.3
-      },
-      {
-        "team_code": "GH",
-        "team": "Ghana",
-        "probability": 12.7
-      }
-    ],
-    "89": [
-      {
-        "team_code": "DE",
-        "team": "Germany",
-        "probability": 53.0
-      },
-      {
-        "team_code": "CA",
-        "team": "Canada",
-        "probability": 22.1
-      },
-      {
-        "team_code": "PY",
-        "team": "Paraguay",
-        "probability": 21.9
-      },
-      {
-        "team_code": "ZA",
-        "team": "South Africa",
-        "probability": 3.0
-      }
-    ],
-    "90": [
-      {
-        "team_code": "BR",
-        "team": "Brazil",
-        "probability": 40.9
-      },
-      {
-        "team_code": "NL",
-        "team": "Netherlands",
-        "probability": 34.5
-      },
-      {
-        "team_code": "JP",
-        "team": "Japan",
-        "probability": 13.8
-      },
-      {
-        "team_code": "MA",
-        "team": "Morocco",
-        "probability": 10.8
-      }
-    ],
-    "91": [
-      {
-        "team_code": "FR",
-        "team": "France",
-        "probability": 73.0
-      },
-      {
-        "team_code": "NO",
-        "team": "Norway",
-        "probability": 19.4
-      },
-      {
-        "team_code": "CI",
-        "team": "C\u00f4te d'Ivoire",
-        "probability": 3.9
-      },
-      {
-        "team_code": "SE",
-        "team": "Sweden",
-        "probability": 3.6
-      }
-    ],
-    "92": [
-      {
-        "team_code": "EN",
-        "team": "England",
-        "probability": 62.1
-      },
-      {
-        "team_code": "MX",
-        "team": "Mexico",
-        "probability": 22.0
-      },
-      {
-        "team_code": "EC",
-        "team": "Ecuador",
-        "probability": 13.6
-      },
-      {
-        "team_code": "CD",
-        "team": "DR Congo",
-        "probability": 2.3
-      }
-    ],
-    "93": [
-      {
-        "team_code": "BE",
-        "team": "Belgium",
-        "probability": 40.2
-      },
-      {
-        "team_code": "US",
-        "team": "United States",
-        "probability": 29.4
-      },
-      {
-        "team_code": "SN",
-        "team": "Senegal",
-        "probability": 27.9
-      },
-      {
-        "team_code": "BA",
-        "team": "Bosnia and Herzegovina",
-        "probability": 2.5
-      }
-    ],
-    "94": [
-      {
-        "team_code": "ES",
-        "team": "Spain",
-        "probability": 69.8
-      },
-      {
-        "team_code": "PT",
-        "team": "Portugal",
-        "probability": 19.9
-      },
-      {
-        "team_code": "HR",
-        "team": "Croatia",
-        "probability": 6.8
-      },
-      {
-        "team_code": "AT",
-        "team": "Austria",
-        "probability": 3.6
-      }
-    ],
-    "95": [
-      {
-        "team_code": "AR",
-        "team": "Argentina",
-        "probability": 75.0
-      },
-      {
-        "team_code": "CH",
-        "team": "Switzerland",
-        "probability": 16.0
-      },
-      {
-        "team_code": "DZ",
-        "team": "Algeria",
-        "probability": 5.9
-      },
-      {
-        "team_code": "CPV",
-        "team": "Cape Verde",
-        "probability": 3.2
-      }
-    ],
-    "96": [
-      {
-        "team_code": "CO",
-        "team": "Colombia",
-        "probability": 72.3
-      },
-      {
-        "team_code": "AU",
-        "team": "Australia",
-        "probability": 16.4
-      },
-      {
-        "team_code": "EG",
-        "team": "Egypt",
-        "probability": 9.0
-      },
-      {
-        "team_code": "GH",
-        "team": "Ghana",
-        "probability": 2.3
-      }
-    ],
-    "97": [
-      {
-        "team_code": "BR",
-        "team": "Brazil",
-        "probability": 30.3
-      },
-      {
-        "team_code": "NL",
-        "team": "Netherlands",
-        "probability": 24.2
-      },
-      {
-        "team_code": "DE",
-        "team": "Germany",
-        "probability": 21.8
-      },
-      {
-        "team_code": "JP",
-        "team": "Japan",
-        "probability": 8.6
-      },
-      {
-        "team_code": "MA",
-        "team": "Morocco",
-        "probability": 5.8
-      },
-      {
-        "team_code": "PY",
-        "team": "Paraguay",
-        "probability": 5.5
-      },
-      {
-        "team_code": "CA",
-        "team": "Canada",
-        "probability": 3.4
-      },
-      {
-        "team_code": "ZA",
-        "team": "South Africa",
-        "probability": 0.5
-      }
-    ],
-    "98": [
-      {
-        "team_code": "ES",
-        "team": "Spain",
-        "probability": 61.4
-      },
-      {
-        "team_code": "PT",
-        "team": "Portugal",
-        "probability": 14.7
-      },
-      {
-        "team_code": "BE",
-        "team": "Belgium",
-        "probability": 8.4
-      },
-      {
-        "team_code": "SN",
-        "team": "Senegal",
-        "probability": 5.1
-      },
-      {
-        "team_code": "HR",
-        "team": "Croatia",
-        "probability": 4.2
-      },
-      {
-        "team_code": "US",
-        "team": "United States",
-        "probability": 4.0
-      },
-      {
-        "team_code": "AT",
-        "team": "Austria",
-        "probability": 1.9
-      },
-      {
-        "team_code": "BA",
-        "team": "Bosnia and Herzegovina",
-        "probability": 0.3
-      }
-    ],
-    "99": [
-      {
-        "team_code": "FR",
-        "team": "France",
-        "probability": 51.8
-      },
-      {
-        "team_code": "EN",
-        "team": "England",
-        "probability": 29.1
-      },
-      {
-        "team_code": "NO",
-        "team": "Norway",
-        "probability": 7.5
-      },
-      {
-        "team_code": "MX",
-        "team": "Mexico",
-        "probability": 6.1
-      },
-      {
-        "team_code": "EC",
-        "team": "Ecuador",
-        "probability": 3.9
-      },
-      {
-        "team_code": "SE",
-        "team": "Sweden",
-        "probability": 0.7
-      },
-      {
-        "team_code": "CI",
-        "team": "C\u00f4te d'Ivoire",
-        "probability": 0.6
-      },
-      {
-        "team_code": "CD",
-        "team": "DR Congo",
-        "probability": 0.3
-      }
-    ],
-    "100": [
-      {
-        "team_code": "AR",
-        "team": "Argentina",
-        "probability": 58.1
-      },
-      {
-        "team_code": "CO",
-        "team": "Colombia",
-        "probability": 27.2
-      },
-      {
-        "team_code": "CH",
-        "team": "Switzerland",
-        "probability": 7.5
-      },
-      {
-        "team_code": "AU",
-        "team": "Australia",
-        "probability": 3.1
-      },
-      {
-        "team_code": "DZ",
-        "team": "Algeria",
-        "probability": 1.7
-      },
-      {
-        "team_code": "EG",
-        "team": "Egypt",
-        "probability": 1.7
-      },
-      {
-        "team_code": "CPV",
-        "team": "Cape Verde",
-        "probability": 0.5
-      },
-      {
-        "team_code": "GH",
-        "team": "Ghana",
-        "probability": 0.3
-      }
-    ],
-    "101": [
-      {
-        "team_code": "ES",
-        "team": "Spain",
-        "probability": 48.5
-      },
-      {
-        "team_code": "BR",
-        "team": "Brazil",
-        "probability": 13.4
-      },
-      {
-        "team_code": "NL",
-        "team": "Netherlands",
-        "probability": 9.7
-      },
-      {
-        "team_code": "PT",
-        "team": "Portugal",
-        "probability": 7.9
-      },
-      {
-        "team_code": "DE",
-        "team": "Germany",
-        "probability": 6.8
-      },
-      {
-        "team_code": "BE",
-        "team": "Belgium",
-        "probability": 3.2
-      },
-      {
-        "team_code": "JP",
-        "team": "Japan",
-        "probability": 2.5
-      },
-      {
-        "team_code": "SN",
-        "team": "Senegal",
-        "probability": 1.7
-      },
-      {
-        "team_code": "HR",
-        "team": "Croatia",
-        "probability": 1.6
-      },
-      {
-        "team_code": "MA",
-        "team": "Morocco",
-        "probability": 1.4
-      },
-      {
-        "team_code": "PY",
-        "team": "Paraguay",
-        "probability": 1.2
-      },
-      {
-        "team_code": "US",
-        "team": "United States",
-        "probability": 0.9
-      },
-      {
-        "team_code": "CA",
-        "team": "Canada",
-        "probability": 0.6
-      },
-      {
-        "team_code": "AT",
-        "team": "Austria",
-        "probability": 0.5
-      },
-      {
-        "team_code": "ZA",
-        "team": "South Africa",
-        "probability": 0.1
-      },
-      {
-        "team_code": "BA",
-        "team": "Bosnia and Herzegovina",
-        "probability": 0.1
-      }
-    ],
-    "102": [
-      {
-        "team_code": "AR",
-        "team": "Argentina",
-        "probability": 37.3
-      },
-      {
-        "team_code": "FR",
-        "team": "France",
-        "probability": 30.4
-      },
-      {
-        "team_code": "EN",
-        "team": "England",
-        "probability": 13.5
-      },
-      {
-        "team_code": "CO",
-        "team": "Colombia",
-        "probability": 10.8
-      },
-      {
-        "team_code": "NO",
-        "team": "Norway",
-        "probability": 2.2
-      },
-      {
-        "team_code": "CH",
-        "team": "Switzerland",
-        "probability": 2.0
-      },
-      {
-        "team_code": "MX",
-        "team": "Mexico",
-        "probability": 1.5
-      },
-      {
-        "team_code": "EC",
-        "team": "Ecuador",
-        "probability": 1.0
-      },
-      {
-        "team_code": "AU",
-        "team": "Australia",
-        "probability": 0.5
-      },
-      {
-        "team_code": "EG",
-        "team": "Egypt",
-        "probability": 0.2
-      },
-      {
-        "team_code": "DZ",
-        "team": "Algeria",
-        "probability": 0.2
-      },
-      {
-        "team_code": "CI",
-        "team": "C\u00f4te d'Ivoire",
-        "probability": 0.1
-      },
-      {
-        "team_code": "SE",
-        "team": "Sweden",
-        "probability": 0.1
-      },
-      {
-        "team_code": "CPV",
-        "team": "Cape Verde",
-        "probability": 0.1
-      },
-      {
-        "team_code": "CD",
-        "team": "DR Congo",
-        "probability": 0.1
-      },
-      {
-        "team_code": "GH",
-        "team": "Ghana",
-        "probability": 0.0
-      }
-    ],
-    "103": [
-      {
-        "team_code": "ES",
-        "team": "Spain",
-        "probability": 24.3
-      },
-      {
-        "team_code": "AR",
-        "team": "Argentina",
-        "probability": 18.6
-      },
-      {
-        "team_code": "FR",
-        "team": "France",
-        "probability": 15.2
-      },
-      {
-        "team_code": "EN",
-        "team": "England",
-        "probability": 6.7
-      },
-      {
-        "team_code": "BR",
-        "team": "Brazil",
-        "probability": 6.7
-      },
-      {
-        "team_code": "CO",
-        "team": "Colombia",
-        "probability": 5.4
-      },
-      {
-        "team_code": "NL",
-        "team": "Netherlands",
-        "probability": 4.9
-      },
-      {
-        "team_code": "PT",
-        "team": "Portugal",
-        "probability": 3.9
-      },
-      {
-        "team_code": "DE",
-        "team": "Germany",
-        "probability": 3.4
-      },
-      {
-        "team_code": "BE",
-        "team": "Belgium",
-        "probability": 1.6
-      },
-      {
-        "team_code": "JP",
-        "team": "Japan",
-        "probability": 1.2
-      },
-      {
-        "team_code": "NO",
-        "team": "Norway",
-        "probability": 1.1
-      },
-      {
-        "team_code": "CH",
-        "team": "Switzerland",
-        "probability": 1.0
-      },
-      {
-        "team_code": "SN",
-        "team": "Senegal",
-        "probability": 0.8
-      },
-      {
-        "team_code": "HR",
-        "team": "Croatia",
-        "probability": 0.8
-      },
-      {
-        "team_code": "MX",
-        "team": "Mexico",
-        "probability": 0.8
-      },
-      {
-        "team_code": "MA",
-        "team": "Morocco",
-        "probability": 0.7
-      },
-      {
-        "team_code": "PY",
-        "team": "Paraguay",
-        "probability": 0.6
-      },
-      {
-        "team_code": "EC",
-        "team": "Ecuador",
-        "probability": 0.5
-      },
-      {
-        "team_code": "US",
-        "team": "United States",
-        "probability": 0.5
-      },
-      {
-        "team_code": "CA",
-        "team": "Canada",
-        "probability": 0.3
-      },
-      {
-        "team_code": "AU",
-        "team": "Australia",
-        "probability": 0.3
-      },
-      {
-        "team_code": "AT",
-        "team": "Austria",
-        "probability": 0.2
-      },
-      {
-        "team_code": "EG",
-        "team": "Egypt",
-        "probability": 0.1
-      },
-      {
-        "team_code": "DZ",
-        "team": "Algeria",
-        "probability": 0.1
-      },
-      {
-        "team_code": "CI",
-        "team": "C\u00f4te d'Ivoire",
-        "probability": 0.1
-      },
-      {
-        "team_code": "SE",
-        "team": "Sweden",
-        "probability": 0.1
-      },
-      {
-        "team_code": "ZA",
-        "team": "South Africa",
-        "probability": 0.1
-      },
-      {
-        "team_code": "CPV",
-        "team": "Cape Verde",
-        "probability": 0.0
-      },
-      {
-        "team_code": "CD",
-        "team": "DR Congo",
-        "probability": 0.0
-      },
-      {
-        "team_code": "BA",
-        "team": "Bosnia and Herzegovina",
-        "probability": 0.0
-      },
-      {
-        "team_code": "GH",
-        "team": "Ghana",
-        "probability": 0.0
-      }
-    ],
-    "champion": [
-      {
-        "team_code": "ES",
-        "team": "Spain",
-        "probability": 28.2
-      },
-      {
-        "team_code": "AR",
-        "team": "Argentina",
-        "probability": 24.0
-      },
-      {
-        "team_code": "FR",
-        "team": "France",
-        "probability": 18.5
-      },
-      {
-        "team_code": "EN",
-        "team": "England",
-        "probability": 6.5
-      },
-      {
-        "team_code": "BR",
-        "team": "Brazil",
-        "probability": 4.9
-      },
-      {
-        "team_code": "CO",
-        "team": "Colombia",
-        "probability": 4.8
-      },
-      {
-        "team_code": "NL",
-        "team": "Netherlands",
-        "probability": 3.5
-      },
-      {
-        "team_code": "PT",
-        "team": "Portugal",
-        "probability": 2.9
-      },
-      {
-        "team_code": "DE",
-        "team": "Germany",
-        "probability": 1.8
-      },
-      {
-        "team_code": "NO",
-        "team": "Norway",
-        "probability": 0.7
-      },
-      {
-        "team_code": "JP",
-        "team": "Japan",
-        "probability": 0.6
-      },
-      {
-        "team_code": "BE",
-        "team": "Belgium",
-        "probability": 0.6
-      },
-      {
-        "team_code": "CH",
-        "team": "Switzerland",
-        "probability": 0.6
-      },
-      {
-        "team_code": "MX",
-        "team": "Mexico",
-        "probability": 0.4
-      },
-      {
-        "team_code": "EC",
-        "team": "Ecuador",
-        "probability": 0.3
-      },
-      {
-        "team_code": "HR",
-        "team": "Croatia",
-        "probability": 0.3
-      },
-      {
-        "team_code": "SN",
-        "team": "Senegal",
-        "probability": 0.3
-      },
-      {
-        "team_code": "MA",
-        "team": "Morocco",
-        "probability": 0.3
-      },
-      {
-        "team_code": "PY",
-        "team": "Paraguay",
-        "probability": 0.2
-      },
-      {
-        "team_code": "CA",
-        "team": "Canada",
-        "probability": 0.1
-      },
-      {
-        "team_code": "AU",
-        "team": "Australia",
-        "probability": 0.1
-      },
-      {
-        "team_code": "US",
-        "team": "United States",
-        "probability": 0.1
-      },
-      {
-        "team_code": "EG",
-        "team": "Egypt",
-        "probability": 0.1
-      },
-      {
-        "team_code": "AT",
-        "team": "Austria",
-        "probability": 0.1
-      },
-      {
-        "team_code": "CI",
-        "team": "C\u00f4te d'Ivoire",
-        "probability": 0.0
-      },
-      {
-        "team_code": "DZ",
-        "team": "Algeria",
-        "probability": 0.0
-      },
-      {
-        "team_code": "ZA",
-        "team": "South Africa",
-        "probability": 0.0
-      }
-    ]
-  },
   "sources": [
     {
       "name": "FIFA public match feed",

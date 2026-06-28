@@ -66,6 +66,9 @@ class ForecastSnapshot:
     group_tables: dict
     upcoming_matches: list[dict]
     round_of_32: list[dict]
+    round_of_32_matchup_probs: list[dict]
+    knockout_path_probs: list[dict]
+    bracket_slot_probs: dict
     sources: list[dict]
 
 
@@ -463,110 +466,156 @@ def simulate_knockout_team(home_code: str, away_code: str, elo: dict[str, dict],
     return home_code if random.random() < 0.5 else away_code
 
 
-def simulate_tournament(group_tables: dict, remaining: dict, matches: list[dict], elo: dict[str, dict], iterations: int = 5000) -> dict[str, dict[str, float]]:
-    counts = Counter()
-    finals = Counter(); semis = Counter(); quarters = Counter(); advances = Counter()
-    played_groups = {g: rows for g, rows in group_tables.items()}
-    r32_template = [m for m in matches if m.get('IdStage') == '289287']
-    for _ in range(iterations):
-        simulated_groups = {}
-        third_rows = []
-        for g, rows in played_groups.items():
-            code_rows = []
-            for row in rows:
-                code = None
-                for k,v in FIFA_TO_ELO.items():
-                    pass
-            # reconstruct codes from group rows via name matching
-            current_codes = {}
-            for m in remaining.get(g, []):
-                current_codes[m['home']] = True
-                current_codes[m['away']] = True
-            for row in rows:
-                matched = None
-                for code in current_codes:
-                    if normalize_team_name(code, {}) == row['team'] or row['team'] == code:
-                        matched = code
-                        break
-                if not matched:
-                    for code in elo.keys():
-                        if normalize_team_name(code, {}) == row['team']:
-                            matched = code
-                            break
-                code_rows.append({'sort_team': matched or row['team'], **row})
-            sim_rows = simulate_group_stage(g, code_rows, remaining.get(g, []), elo)
-            simulated_groups[g] = sim_rows
-            third = dict(sim_rows[2]); third['group'] = g.split()[-1]
-            third_rows.append(third)
-            for row in sim_rows[:2]:
-                advances[row['code']] += 1
-        third_rows.sort(key=lambda r: (r['points'], r['gd'], r['gf'], r['code']), reverse=True)
-        top_third = third_rows[:THIRD_PLACE_ADVANCERS]
-        for row in top_third:
-            advances[row['code']] += 1
-        third_lookup = {r['group']: r['code'] for r in top_third}
-        combo = ''.join(sorted(third_lookup.keys()))
-        annex = load_annex_c_full()
-        row = annex.get(combo)
-        if not row:
-            continue
-        slot_to_group = {ANNEX_C_COLUMN_ORDER[i]: row[i][1] for i in range(8)}
-        slot_to_team = {}
-        for g, sim_rows in simulated_groups.items():
-            letter = g.split()[-1]
-            slot_to_team[f'1{letter}'] = sim_rows[0]['code']
-            slot_to_team[f'2{letter}'] = sim_rows[1]['code']
-        third_match_group = {WINNER_SLOT_TO_MATCH[slot]: grp for slot, grp in slot_to_group.items()}
+def build_group_code_rows(group_name: str, rows: list[dict], remaining: dict, elo: dict[str, dict]) -> list[dict]:
+    code_rows = []
+    current_codes = {}
+    for m in remaining.get(group_name, []):
+        current_codes[m['home']] = True
+        current_codes[m['away']] = True
+    for row in rows:
+        matched = None
+        for code in current_codes:
+            if normalize_team_name(code, {}) == row['team'] or row['team'] == code:
+                matched = code
+                break
+        if not matched:
+            for code in elo.keys():
+                if normalize_team_name(code, {}) == row['team']:
+                    matched = code
+                    break
+        code_rows.append({'sort_team': matched or row['team'], **row})
+    return code_rows
 
+
+def simulate_group_outcomes(group_tables: dict, remaining: dict, elo: dict[str, dict]):
+    simulated_groups = {}
+    third_rows = []
+    advances = Counter()
+    for g, rows in group_tables.items():
+        code_rows = build_group_code_rows(g, rows, remaining, elo)
+        sim_rows = simulate_group_stage(g, code_rows, remaining.get(g, []), elo)
+        simulated_groups[g] = sim_rows
+        if len(sim_rows) >= 3:
+            third = dict(sim_rows[2])
+            third['group'] = g.split()[-1]
+            third_rows.append(third)
+        for row in sim_rows[:2]:
+            advances[row['code']] += 1
+    third_rows.sort(key=lambda r: (r['points'], r['gd'], r['gf'], r['code']), reverse=True)
+    top_third = third_rows[:THIRD_PLACE_ADVANCERS]
+    for row in top_third:
+        advances[row['code']] += 1
+    return simulated_groups, top_third, advances
+
+
+def resolve_simulated_r32_pairings(simulated_groups: dict, top_third: list[dict], matches: list[dict]):
+    annex = load_annex_c_full()
+    third_lookup = {r['group']: r['code'] for r in top_third}
+    combo = ''.join(sorted(third_lookup.keys()))
+    row = annex.get(combo)
+    if not row:
+        return None, None
+    slot_to_group = {ANNEX_C_COLUMN_ORDER[i]: row[i][1] for i in range(8)}
+    slot_to_team = {}
+    for g, sim_rows in simulated_groups.items():
+        letter = g.split()[-1]
+        slot_to_team[f'1{letter}'] = sim_rows[0]['code']
+        slot_to_team[f'2{letter}'] = sim_rows[1]['code']
+    r32_template = [m for m in matches if m.get('IdStage') == '289287']
+    pairings = []
+    for m in r32_template:
+        match_no = int(m['MatchNumber'])
+        home_slot, away_slot = m['PlaceHolderA'], m['PlaceHolderB']
+        home = slot_to_team.get(home_slot)
+        away = slot_to_team.get(away_slot)
+        if not away and away_slot and away_slot.startswith('3'):
+            third_group = slot_to_group.get(home_slot)
+            away = third_lookup.get(third_group)
+        if home and away:
+            pairings.append({'match_number': match_no, 'home_code': home, 'away_code': away, 'home_slot': home_slot, 'away_slot': away_slot})
+    return pairings, slot_to_team
+
+
+def simulate_tournament(group_tables: dict, remaining: dict, matches: list[dict], elo: dict[str, dict], iterations: int = 5000) -> tuple[dict[str, dict[str, float]], dict[str, Counter], dict[str, dict[str, Counter]], dict[int, Counter], Counter]:
+    counts = Counter()
+    finals = Counter(); semis = Counter(); quarters = Counter(); advances_total = Counter()
+    matchup_counter = defaultdict(Counter)
+    path_counter = defaultdict(lambda: {'quarterfinal_opponents': Counter(), 'semifinal_opponents': Counter(), 'final_opponents': Counter()})
+    bracket_slot_counter = defaultdict(Counter)
+    champion_counter = Counter()
+    for _ in range(iterations):
+        simulated_groups, top_third, advances = simulate_group_outcomes(group_tables, remaining, elo)
+        for team_code, n in advances.items():
+            advances_total[team_code] += n
+        pairings, _ = resolve_simulated_r32_pairings(simulated_groups, top_third, matches)
+        if not pairings:
+            continue
         r32_winners = {}
-        for m in r32_template:
-            home_slot, away_slot = m['PlaceHolderA'], m['PlaceHolderB']
-            home = slot_to_team.get(home_slot)
-            away = slot_to_team.get(away_slot) if away_slot in slot_to_team else third_lookup.get(third_match_group.get(int(m['MatchNumber'])))
-            if not home or not away:
-                continue
+        for pairing in pairings:
+            home = pairing['home_code']
+            away = pairing['away_code']
+            matchup_counter[home][away] += 1
+            matchup_counter[away][home] += 1
             winner = simulate_knockout_team(home, away, elo, 55.0 if home in {'USA','MEX','CAN'} else 0.0)
-            r32_winners[int(m['MatchNumber'])] = winner
+            r32_winners[pairing['match_number']] = winner
+            bracket_slot_counter[pairing['match_number']][winner] += 1
         r16_pairs = [(89,73,74),(90,75,76),(91,77,78),(92,79,80),(93,81,82),(94,83,84),(95,85,86),(96,87,88)]
         r16_winners = {}
         for match_no, a, b in r16_pairs:
             if a in r32_winners and b in r32_winners:
-                winner = simulate_knockout_team(r32_winners[a], r32_winners[b], elo)
+                left = r32_winners[a]
+                right = r32_winners[b]
+                winner = simulate_knockout_team(left, right, elo)
+                loser = right if winner == left else left
                 r16_winners[match_no] = winner
+                bracket_slot_counter[match_no][winner] += 1
                 quarters[winner] += 1
-        qf_pairs = [(97,89,90),(98,91,92),(99,93,94),(100,95,96)]
+                path_counter[winner]['quarterfinal_opponents'][loser] += 1
+        qf_pairs = [(97,89,90),(98,93,94),(99,91,92),(100,95,96)]
         qf_winners = {}
         for match_no, a, b in qf_pairs:
             if a in r16_winners and b in r16_winners:
-                winner = simulate_knockout_team(r16_winners[a], r16_winners[b], elo)
+                left = r16_winners[a]
+                right = r16_winners[b]
+                winner = simulate_knockout_team(left, right, elo)
+                loser = right if winner == left else left
                 qf_winners[match_no] = winner
+                bracket_slot_counter[match_no][winner] += 1
                 semis[winner] += 1
+                path_counter[winner]['semifinal_opponents'][loser] += 1
         sf_pairs = [(101,97,98),(102,99,100)]
         sf_winners = {}
-        sf_losers = {}
         for match_no, a, b in sf_pairs:
             if a in qf_winners and b in qf_winners:
-                w = simulate_knockout_team(qf_winners[a], qf_winners[b], elo)
-                l = qf_winners[a] if w == qf_winners[b] else qf_winners[b]
+                left = qf_winners[a]
+                right = qf_winners[b]
+                w = simulate_knockout_team(left, right, elo)
+                l = right if w == left else left
                 sf_winners[match_no] = w
-                sf_losers[match_no] = l
+                bracket_slot_counter[match_no][w] += 1
                 finals[w] += 1
+                path_counter[w]['final_opponents'][l] += 1
         if 101 in sf_winners and 102 in sf_winners:
-            champion = simulate_knockout_team(sf_winners[101], sf_winners[102], elo)
+            final_left = sf_winners[101]
+            final_right = sf_winners[102]
+            bracket_slot_counter[103][final_left] += 1
+            bracket_slot_counter[103][final_right] += 1
+            champion = simulate_knockout_team(final_left, final_right, elo)
             counts[champion] += 1
-            finals[sf_winners[101]] += 1
-            finals[sf_winners[102]] += 1
+            champion_counter[champion] += 1
+            finals[final_left] += 1
+            finals[final_right] += 1
     probs = {}
-    teams = set(list(counts.keys()) + list(finals.keys()) + list(semis.keys()) + list(quarters.keys()) + list(advances.keys()))
+    teams = set(list(counts.keys()) + list(finals.keys()) + list(semis.keys()) + list(quarters.keys()) + list(advances_total.keys()))
     for team in teams:
         probs[team] = {
             'win_world_cup': 100 * counts[team] / iterations,
             'reach_final': 100 * finals[team] / iterations,
             'reach_semifinal': 100 * semis[team] / iterations,
             'reach_quarterfinal': 100 * quarters[team] / iterations,
-            'advance_from_group_or_r32': 100 * advances[team] / iterations,
+            'advance_from_group_or_r32': 100 * advances_total[team] / iterations,
         }
-    return probs
+    return probs, matchup_counter, path_counter, bracket_slot_counter, champion_counter
 
 
 def compute_forecast() -> ForecastSnapshot:
@@ -597,7 +646,7 @@ def compute_forecast() -> ForecastSnapshot:
 
     round_of_32 = build_round_of_32(matches, group_tables)
 
-    sim_probs = simulate_tournament(group_tables, remaining, matches, elo, iterations=min(cfg['simulation_count'], 6000))
+    sim_probs, matchup_counter, path_counter, bracket_slot_counter, champion_counter = simulate_tournament(group_tables, remaining, matches, elo, iterations=min(cfg['simulation_count'], 6000))
     title_odds = []
     for t in ratings:
         code = t['code']
@@ -652,10 +701,75 @@ def compute_forecast() -> ForecastSnapshot:
             'why': 'Driven by public Elo baseline, host effect where relevant, and Poisson scoreline model.'
         })
 
+    matchup_probs = []
+    for team_code, opponents in matchup_counter.items():
+        total = sum(opponents.values())
+        if not total:
+            continue
+        team_name = normalize_team_name(team_code, team_names)
+        opps = []
+        for opp_code, count in opponents.most_common():
+            opps.append({
+                'opponent_code': fifa_to_elo_code(opp_code) if len(opp_code) == 3 else opp_code,
+                'opponent_team': normalize_team_name(opp_code, team_names),
+                'probability': round(100 * count / total, 1),
+            })
+        matchup_probs.append({
+            'team_code': fifa_to_elo_code(team_code) if len(team_code) == 3 else team_code,
+            'team': team_name,
+            'possible_opponents': opps,
+        })
+    matchup_probs.sort(key=lambda x: x['team'])
+
+    knockout_path_probs = []
+    for team_code, stage_maps in path_counter.items():
+        team_name = normalize_team_name(team_code, team_names)
+        row = {'team_code': fifa_to_elo_code(team_code) if len(team_code) == 3 else team_code, 'team': team_name}
+        for stage_key, label in [('quarterfinal_opponents', 'quarterfinal_opponents'), ('semifinal_opponents', 'semifinal_opponents'), ('final_opponents', 'final_opponents')]:
+            counter = stage_maps[stage_key]
+            total = sum(counter.values())
+            vals = []
+            if total:
+                for opp_code, count in counter.most_common():
+                    vals.append({
+                        'opponent_code': fifa_to_elo_code(opp_code) if len(opp_code) == 3 else opp_code,
+                        'opponent_team': normalize_team_name(opp_code, team_names),
+                        'probability': round(100 * count / total, 1),
+                    })
+            row[label] = vals
+        knockout_path_probs.append(row)
+    knockout_path_probs.sort(key=lambda x: x['team'])
+
+    bracket_slot_probs = {}
+    for match_no, counter in bracket_slot_counter.items():
+        total = sum(counter.values())
+        if not total:
+            continue
+        bracket_slot_probs[str(match_no)] = [
+            {
+                'team_code': fifa_to_elo_code(team_code) if len(team_code) == 3 else team_code,
+                'team': normalize_team_name(team_code, team_names),
+                'probability': round(100 * count / total, 1),
+            }
+            for team_code, count in counter.most_common()
+        ]
+    if champion_counter:
+        total = sum(champion_counter.values())
+        bracket_slot_probs['champion'] = [
+            {
+                'team_code': fifa_to_elo_code(team_code) if len(team_code) == 3 else team_code,
+                'team': normalize_team_name(team_code, team_names),
+                'probability': round(100 * count / total, 1),
+            }
+            for team_code, count in champion_counter.most_common()
+        ]
+
     notes = [
         'Initial working public-data forecast built from FIFA public match feed and World Football Elo baseline.',
         'Current title odds now come from a first tournament simulation pass, but the engine still needs calibration, cleanup, and expansion to the full configured simulation count.',
-        'Round-of-32 third-place resolution is now driven by the full Annex C lookup recovered from FIFA public regulations plus the official feed placeholders, but full tournament title odds still need true simulation rather than heuristics.'
+        'Round-of-32 third-place resolution is now driven by the full Annex C lookup recovered from FIFA public regulations plus the official feed placeholders, but full tournament title odds still need true simulation rather than heuristics.',
+        'Round-of-32 matchup probabilities are estimated by simulating the remaining group-stage paths and counting how often each opponent pairing appears.',
+        'Knockout path probabilities estimate the most likely quarterfinal, semifinal, and final opponents conditional on reaching each stage.'
     ]
     sources = [
         {'name': 'FIFA public match feed', 'url': 'https://api.fifa.com/api/v3/calendar/matches?count=500&idSeason=285023'},
@@ -672,6 +786,9 @@ def compute_forecast() -> ForecastSnapshot:
         group_tables=group_tables,
         upcoming_matches=upcoming,
         round_of_32=round_of_32,
+        round_of_32_matchup_probs=matchup_probs,
+        knockout_path_probs=knockout_path_probs,
+        bracket_slot_probs=bracket_slot_probs,
         sources=sources,
     )
 
